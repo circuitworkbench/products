@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.circuitworkbench.feature"
+      label="%featureName"
+      version="1.0.0.202506291143"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="com.circuitworkbench.application"
+         version="1.0.0.202506291143"/>
+
+   <plugin
+         id="com.circuitworkbench.common"
+         version="1.0.0.202506291143"/>
+
+   <plugin
+         id="com.circuitworkbench.diagram"
+         version="1.0.0.202506291143"/>
+
+   <plugin
+         id="com.circuitworkbench.graph"
+         version="1.0.0.202506291143"/>
+
+   <plugin
+         id="com.circuitworkbench.launcher"
+         version="1.0.0.202506291143"/>
+
+   <plugin
+         id="com.circuitworkbench.library"
+         version="1.0.0.202506291143"/>
+
+   <plugin
+         id="com.circuitworkbench.library.diagram"
+         version="1.0.0.202506291143"/>
+
+   <plugin
+         id="com.circuitworkbench.library.model"
+         version="1.0.0.202506291143"/>
+
+   <plugin
+         id="com.circuitworkbench.library.model.edit"
+         version="1.0.0.202506291143"/>
+
+   <plugin
+         id="com.circuitworkbench.library.pages"
+         version="1.0.0.202506291143"/>
+
+   <plugin
+         id="com.circuitworkbench.markers"
+         version="1.0.0.202506291143"/>
+
+   <plugin
+         id="com.circuitworkbench.notation"
+         version="1.0.0.202506291143"/>
+
+   <plugin
+         id="com.circuitworkbench.resources"
+         version="1.0.0.202506291143"/>
+
+   <plugin
+         id="com.circuitworkbench.schematic"
+         version="1.0.0.202506291143"/>
+
+   <plugin
+         id="com.circuitworkbench.semantic"
+         version="1.0.0.202506291143"/>
+
+   <plugin
+         id="com.circuitworkbench.source"
+         version="1.0.0.202506291143"/>
+
+   <plugin
+         id="com.circuitworkbench.help"
+         version="1.0.0.202506291143"/>
+         
+   <plugin
+         id="com.circuitworkbench.cheatsheet"
+         version="1.0.0.202506291143"/>
+         
+   <plugin
+         id="com.circuitworkbench.welcome"
+         version="1.0.0.202506291143"/>
+         
+   <plugin
+         id="com.circuitworkbench.ui.custom"
+         version="1.0.0.202506291143"/>
+
+</feature>
