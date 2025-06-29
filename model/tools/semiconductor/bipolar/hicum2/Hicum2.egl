@@ -1,0 +1,78 @@
+//BJT [%=name%]
+[%
+out.print(name);
+out.print(" ");
+for(t in terminals){
+	out.print(t.node);
+	if (hasMore){
+	   out.print(" ");
+	}
+}
+out.print(" ");
+out.print("qmod_" + name.toLowerCase());
+if(params.off?.value){
+	out.print(" ");
+	out.print("off");		
+}
+if(params.ic?.value != null){
+    var ic = params.ic.value;
+	out.print(" ");
+	out.print("ic=" + formatter.format(ic.vbe.value) + "," + formatter.format(ic.vce.value));	
+}
+if(params.temp?.value != null and params.temp?.value != params.temp?.defaultValue){
+	out.print(" ");
+	out.print("temp=" + formatter.format(params.temp?.value));			
+}
+if(params.dtemp?.value != null and params.dtemp?.value != params.dtemp?.defaultValue){
+	out.print(" ");
+	out.print("dtemp=" + formatter.format(params.dtemp?.value));		
+}
+if(params.tk?.value != null and params.tk?.value != params.tk?.defaultValue){
+	out.print(" ");
+	out.print("tk=" + formatter.format(params.tk?.value));		
+}
+if(params.dtsh?.value != null and params.dtsh?.value != params.dtsh?.defaultValue){
+	out.print(" ");
+	out.print("dtsh=" + formatter.format(params.dtsh?.value));		
+}
+if(params.it?.value != null and params.it?.value != params.it?.defaultValue){
+	out.print(" ");
+	out.print("it=" + formatter.format(params.it?.value));		
+}
+%]
+[%
+var mod = params.mod?.value;
+out.println("");
+out.print(".MODEL");
+out.print(" ");
+out.print("qmod_" + name.toLowerCase());
+out.print(" ");
+if(hint.endsWith("pnp")){
+	out.print("PNP");
+} else {
+	out.print("NPN");
+}
+out.print(" ");
+out.print("level=8");
+if(mod != null){
+	out.print(" ");
+	var index = 0;
+	for(key in mod.keySet()){
+		if(key.equalsIgnoreCase("type") or key.equalsIgnoreCase("terminal")){
+			continue;
+		}
+		var mp = mod.get(key);
+		if(mp?.value != null and mp?.value != mp?.defaultValue){
+			if(index > 0){
+				if(index == 4 or (index - 4).mod(7) == 0){
+					out.println("");
+					out.print("+");
+				}
+				out.print(" ");				
+			}
+			out.print(mp.name + "=" + formatter.format(mp.value));		
+			index += 1;
+		}
+	}
+}
+%]

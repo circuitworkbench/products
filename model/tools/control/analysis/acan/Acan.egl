@@ -1,0 +1,11 @@
+[%
+out.print(".AC");
+out.print(" ");
+out.print(formatter.format(params.variation.value));
+out.print(" ");
+out.print(formatter.format(params.nd.value));
+out.print(" ");
+out.print(formatter.format(params.fstart.value));
+out.print(" ");
+out.print(formatter.format(params.fstop.value));
+%]

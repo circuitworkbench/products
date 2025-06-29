@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Notation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.circuitworkbench.com/library/model/notation" xmi:id="_X0l8QbveEe-f09idac7W-g" title="Ground" tooltip="Chassis ground" hint="ground_chassis" path="/standard/grounds" iconSm="ChassisGround.png" iconLg="ChassisGround@2x.png" diagram="ChassisGround.cdgm">
+  <semantic>Ground.csem</semantic>
+</notation:Notation>

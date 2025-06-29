@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1751161262555" transient="false">
+	<site updateable="true" url="platform:/base/" enabled="true" policy="USER-EXCLUDE">
+		<feature id="com.circuitworkbench.feature" version="1.0.0.202506290139" url="features/com.circuitworkbench.feature_1.0.0.202506290139/">
+		</feature>
+	</site>
+</config>

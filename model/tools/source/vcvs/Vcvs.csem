@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_X1RRsLveEe-f09idac7W-g" abstraction="false" title="VCVS" description="Voltage Controlled Voltage Source" icon="Vcvs.png" egl="Vcvs.egl" evl="Vcvs.evl">
+  <supertype>..\..\NamedElement.csem</supertype>
+  <feature xsi:type="semantic:Attribute" name="gain" title="gain" description="Voltage gain" viewPattern="GAIN={0, number}" visible="true" editPattern="{0, number}"/>
+</semantic:Semantic>

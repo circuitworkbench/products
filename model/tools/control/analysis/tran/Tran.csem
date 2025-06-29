@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_X0i48LveEe-f09idac7W-g" abstraction="false" title="Tran" description="Transient Analysis" icon="Tran.png" egl="Tran.egl" evl="Tran.evl">
+  <supertype>..\Analysis.csem</supertype>
+  <feature xsi:type="semantic:Attribute" name="tstep" title="tstep" description="Suggested computing increment" viewPattern="TSTEP={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="tstop" title="tstop" description="Final time" viewPattern="TSTOP={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="tstart" title="tstart" description="Initial time" viewPattern="TSTART={0, number}" defaultValue="0" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="tmax" title="tmax" description="Maximum stepsize" viewPattern="TMAX={0, number}" defaultValue="0" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="uic" title="uic" description="Use initial conditions" viewPattern="UIC={0}" datatype="BOOLEAN" defaultValue="true" editPattern="{0}"/>
+</semantic:Semantic>

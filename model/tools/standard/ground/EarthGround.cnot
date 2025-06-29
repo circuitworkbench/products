@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Notation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.circuitworkbench.com/library/model/notation" xmi:id="_X0lVMLveEe-f09idac7W-g" title="Ground" tooltip="Earth Ground" hint="ground_earth" path="/standard/grounds" iconSm="EarthGround.png" iconLg="EarthGround@2x.png" diagram="EarthGround.cdgm">
+  <semantic>Ground.csem</semantic>
+</notation:Notation>

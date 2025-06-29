@@ -1,0 +1,39 @@
+//LTRA [%=name%]
+[%
+out.print(name);
+out.print(" ");
+for(t in terminals){
+	out.print(t.node);
+	if (hasMore){
+	   out.print(" ");
+	}
+}
+out.print(" ");
+out.print("urcmod_" + name.toLowerCase());
+%]
+[%
+var mod = params.mod?.value;
+out.println("");
+out.print(".MODEL");
+out.print(" ");
+out.print("urcmod_" + name.toLowerCase());
+out.print(" ");
+out.print("URC");
+if(mod != null){
+	out.print(" ");
+	var index = 0;
+	for(key in mod.keySet()){
+		if(key.equalsIgnoreCase("type") or key.equalsIgnoreCase("terminal")){
+			continue;
+		}
+		var mp = mod.get(key);
+		if(mp?.value != null and mp?.value != mp?.defaultValue){
+			if (index > 0){
+				out.print(" ");
+			}
+			out.print(mp.name + "=" + mp.value);		
+			index += 1;
+		}
+	}
+}
+%]

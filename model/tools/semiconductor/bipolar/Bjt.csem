@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_X1ZNgLveEe-f09idac7W-g" title="Bjt">
+  <supertype>..\..\NamedElement.csem</supertype>
+  <feature xsi:type="semantic:Attribute" name="off" title="off" description="Device initially off" viewPattern="OFF={0}" datatype="BOOLEAN" editPattern="{0}"/>
+  <feature xsi:type="semantic:Reference" name="ic" title="ic" description="Initial condition vector" referenceURI="..\IcVbeVce.csem" wizard="true"/>
+  <feature xsi:type="semantic:Attribute" name="temp" title="temp" description="Instance temperature" viewPattern="TEMP={0, number}°C" defaultValue="27" editPattern="{0, number}" units="°C"/>
+  <feature xsi:type="semantic:Attribute" name="dtemp" title="dtemp" description="Instance temperature delta from circuit" viewPattern="DTEMP={0, number}°C" editPattern="{0, number}" units="°C"/>
+</semantic:Semantic>

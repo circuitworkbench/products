@@ -1,0 +1,10 @@
+context Csw {
+  constraint HasValidName {  
+    check : self.name.isDefined() and self.name.matches("(W|w)[A-Za-z0-9]+")
+    message : "Invalid Csw name"
+  } 
+  critique HasValidConnections { 
+    check : self.terminal.forAll(t | t.node != null and t.node.length() >= 0)
+    message : "Floating pins"
+  }
+}
