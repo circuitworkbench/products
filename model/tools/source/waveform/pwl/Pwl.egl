@@ -1,9 +1,0 @@
-[%
-out.print("PWL");
-out.print("(");
-out.print(params.points.value);
-out.print(")");
-out.print(formatter.format(params.r.value)); 
-out.print(" ");
-out.print(formatter.format(params.td.value));
-%]

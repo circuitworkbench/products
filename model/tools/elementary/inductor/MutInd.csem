@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_X0vGMLveEe-f09idac7W-g" abstraction="false" title="MutInd" description="Mutual Inductance" egl="MutInd.egl" evl="MutInd.evl">
-  <supertype>..\..\NamedElement.csem</supertype>
-  <feature xsi:type="semantic:Attribute" name="coeff" title="k" description="Mutual inductance" viewPattern="COEFF={0, number}" editPattern="{0, number}"/>
-  <feature xsi:type="semantic:Reference" name="ind1" title="inductor1" description="First coupled inductor" viewPattern="IND1={0}" referenceURI="Ind.csem"/>
-  <feature xsi:type="semantic:Reference" name="ind2" title="inductor2" description="Second coupled inductor" viewPattern="IND2={0}" referenceURI="Ind.csem"/>
-</semantic:Semantic>

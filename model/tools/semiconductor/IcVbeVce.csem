@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_UemPkNnUEe-hza64LJqvxA" abstraction="false" title="Initial Conditions" description="Initial conditions vector VBE, VCE" egl="IcVbeVce.egl" evl="IcVbeVce.evl">
-  <feature xsi:type="semantic:Attribute" xmi:id="_UemPkdnUEe-hza64LJqvxA" name="vbe" title="vbe" description="Base-Emitter Voltage" units="V"/>
-  <feature xsi:type="semantic:Attribute" name="vce" title="vce" description="Collector-Emitter Voltage" units="V"/>
-</semantic:Semantic>
