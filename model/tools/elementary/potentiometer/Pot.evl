@@ -1,0 +1,10 @@
+context Pot {
+  constraint HasValidName {  
+    check : self.name.isDefined() and self.name.matches("(A|a)[A-Za-z0-9]+")
+    message : "Potentiometer name required and must begin with the letter 'A'"
+  }
+  critique HasValidConnections { 
+    check : self.terminal.forAll(t | t.node != null and t.node.length() >= 0)
+    message : "Floating pins"
+  }
+}

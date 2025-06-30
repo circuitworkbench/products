@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_XzyrALveEe-f09idac7W-g" abstraction="false" title="Wire" description="Wire Semantic" icon="wire.png">
+	<feature xsi:type="semantic:Attribute" name="name" title="name" description="Reference name" viewPattern="{0}" visible="true" datatype="STRING" editPattern="{0}"/>
+</semantic:Semantic>
