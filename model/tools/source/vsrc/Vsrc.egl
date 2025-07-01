@@ -71,9 +71,20 @@ if(params.tran != null and params.tran.value != null){
 	  	out.print("(");
 	  	out.print(formatter.format(tran.points.value));
 	  	out.print(")");
-	  	out.print(formatter.format(tran.r.value)); 
-	  	out.print(" ");
-	  	out.print(formatter.format(tran.td.value));
+	  	if(tran.r?.value != null and tran.r?.value != tran.r?.defaultValue){
+			out.print(" ");
+			out.print(formatter.format(tran.r.value)); 
+			if(tran.td?.value != null and tran.td?.value != tran.td?.defaultValue){
+				out.print(" ");
+				out.print(formatter.format(tran.td.value));
+			} 
+		} else {
+			out.print(" 0");
+			if(tran.td?.value != null and tran.td?.value != tran.td?.defaultValue){
+				out.print(" ");
+				out.print(formatter.format(tran.td.value));
+			} 
+		}
 	  }
 	  case "Sffm": {
 	  	out.print("SFFM");
