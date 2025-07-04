@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<notation:Notation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.circuitworkbench.com/library/model/notation" xmi:id="_X09IoLveEe-f09idac7W-g" title="Ltra" tooltip="Lossy Transmission line" hint="ltra" path="/txl/ltra" iconSm="Ltra.png" iconLg="Ltra@2x.png" diagram="Ltra.cdgm">
-  <semantic>Ltra.csem</semantic>
-</notation:Notation>

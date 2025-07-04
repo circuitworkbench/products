@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_X1lawbveEe-f09idac7W-g" abstraction="false" title="JFET Level 2 Model" description="JFET Level 2 Model" egl="Jfet2Mod.egl" evl="Jfet2Mod.evl">
-  <supertype>..\JfetMod.csem</supertype>
-</semantic:Semantic>

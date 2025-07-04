@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_X1ZNgbveEe-f09idac7W-g" title="BjtMod">
-  <feature xsi:type="semantic:Attribute" name="tnom" title="tnom" description="Parameter measurement temperature" viewPattern="TNOM={0, number}◦C" defaultValue="27" editPattern="{0, number}" units="◦C"/>
-  <feature xsi:type="semantic:Attribute" name="re" title="re" description="Emitter resistance" viewPattern="RE={0, number}Ω" defaultValue="0" editPattern="{0, number}" units="Ω"/>
-  <feature xsi:type="semantic:Attribute" name="tr" title="tr" description="Ideal reverse transit time" viewPattern="TR={0, number}s" defaultValue="0" editPattern="{0, number}" units="s"/>
-  <feature xsi:type="semantic:Attribute" name="vbe_max" title="vbe_max" description="Maximum voltage B-E junction" viewPattern="VBE_MAX={0, number}" editPattern="{0, number}"/>
-  <feature xsi:type="semantic:Attribute" name="vbc_max" title="vbc_max" description="Maximum voltage B-C junction" viewPattern="VBC_MAX={0, number}" editPattern="{0, number}"/>
-  <feature xsi:type="semantic:Attribute" name="vce_max" title="vce_max" description="Maximum voltage C-E branch" viewPattern="VCE_MAX={0, number}" editPattern="{0, number}"/>
-</semantic:Semantic>

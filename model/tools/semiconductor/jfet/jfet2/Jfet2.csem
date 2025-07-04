@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_X1lawLveEe-f09idac7W-g" abstraction="false" title="JFET Level 2" description="Level 2 - Junction Field Effect transistor" icon="..\jfet1\NjfJfet1.png" egl="Jfet2.egl" evl="Jfet2.evl">
-  <supertype>..\Jfet.csem</supertype>
-  <feature xsi:type="semantic:Reference" name="mod" title="model" description="Device model" viewPattern="MODEL={0}" referenceURI="Jfet2Mod.csem" wizard="true"/>
-</semantic:Semantic>
