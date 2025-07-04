@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Notation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.circuitworkbench.com/library/model/notation" xmi:id="_X1TG4LveEe-f09idac7W-g" title="Battery" tooltip="Battery" hint="battery" path="/sources/vsources" iconSm="Battery.png" iconLg="Battery@2x.png" diagram="Battery.cdgm">
+  <semantic>Vdc.csem</semantic>
+</notation:Notation>

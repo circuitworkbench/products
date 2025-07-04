@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Notation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.circuitworkbench.com/library/model/notation" xmi:id="_X1yPELveEe-f09idac7W-g" title="PMOS" tooltip="P-type MOSFET" hint="pmos" path="/semiconductor/mosfets" iconSm="Pmos.png" iconLg="Pmos@2x.png" diagram="Pmos.cdgm">
+  <semantic>Mos1.csem</semantic>
+  <semantic>..\mos2\Mos2.csem</semantic>
+  <semantic>..\mos3\Mos3.csem</semantic>
+  <semantic>..\mos6\Mos6.csem</semantic>
+  <semantic>..\mos9\Mos9.csem</semantic>
+</notation:Notation>

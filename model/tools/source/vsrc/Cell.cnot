@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Notation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.circuitworkbench.com/library/model/notation" xmi:id="_X1TG4LveEe-f09idac7W-g" title="Cell" tooltip="Cell" hint="cell" path="/sources/vsources" iconSm="Cell.png" iconLg="Cell@2x.png" diagram="Cell.cdgm">
+  <semantic>Vdc.csem</semantic>
+</notation:Notation>

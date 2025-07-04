@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_X1Sf0bveEe-f09idac7W-g" abstraction="false" title="Voltage Source" description="Independent Voltage Source" icon="Vsrc.png" egl="Vsrc.egl" evl="Vsrc.evl">
+  <supertype>..\Src.csem</supertype>
+  <feature xsi:type="semantic:Attribute" name="dc" title="dc" description="DC value of source" viewPattern="{0, number}V" visible="true" editPattern="{0, number}" units="V"/>
+  <feature xsi:type="semantic:Reference" name="ac" title="ac" description="AC value of source" viewPattern="AC={0}" referenceURI="..\waveform\ac\Ac.csem" wizard="true"/>
+  <feature xsi:type="semantic:Reference" name="tran" title="tran" description="Transient value of source" viewPattern="{0}" referenceURI="..\waveform\Transient.csem" wizard="true">
+    <subReferenceURI>..\waveform\am\Am.csem</subReferenceURI>
+    <subReferenceURI>..\waveform\exp\Exp.csem</subReferenceURI>
+    <subReferenceURI>..\waveform\pulse\Pulse.csem</subReferenceURI>
+    <subReferenceURI>..\waveform\pwl\Pwl.csem</subReferenceURI>
+    <subReferenceURI>..\waveform\sffm\Sffm.csem</subReferenceURI>
+    <subReferenceURI>..\waveform\sine\Sine.csem</subReferenceURI>
+  </feature>
+  <feature xsi:type="semantic:Reference" name="distof1" title="distof1" description="F1 input for distortion" viewPattern="DISTOF1={0}" referenceURI="..\waveform\distorf\Distorf.csem" wizard="true"/>
+  <feature xsi:type="semantic:Reference" name="distof2" title="distof2" description="F2 input for distortion" viewPattern="DISTOF2={0}" referenceURI="..\waveform\distorf\Distorf.csem" wizard="true"/>
+</semantic:Semantic>

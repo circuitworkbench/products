@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_X1bpwbveEe-f09idac7W-g" abstraction="false" title="BJT Level 1 Model" description="BJT Level 1 Model" egl="Bjt1Mod.egl" evl="Bjt1Mod.evl">
+  <supertype>..\BjtMod.csem</supertype>
+  <feature xsi:type="semantic:Attribute" name="subs" title="subs" description="Vertical or Lateral device" viewPattern="SUBS={0, number, integer}" datatype="INTEGER" defaultValue="1" editPattern="{0, number, integer}"/>
+  <feature xsi:type="semantic:Attribute" name="is" title="is" description="Saturation Current" viewPattern="IS={0, number}A" defaultValue="1.0e-16" editPattern="{0, number}" units="A"/>
+  <feature xsi:type="semantic:Attribute" name="ibe" title="ibe" description="Base-Emitter saturation Current" viewPattern="IBE={0, number}A" defaultValue="0.0" editPattern="{0, number}" units="A"/>
+  <feature xsi:type="semantic:Attribute" name="ibc" title="ibc" description="Base-Collector saturation Current" viewPattern="IBC={0, number}A" defaultValue="0.0" editPattern="{0, number}" units="A"/>
+  <feature xsi:type="semantic:Attribute" name="bf" title="bf" description="Ideal forward beta" viewPattern="BF={0, number}" defaultValue="100" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="nf" title="nf" description="Forward emission coefficient" viewPattern="NF={0, number}" defaultValue="1.0" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="vaf" title="vaf" description="Forward Early voltage" viewPattern="VAF={0, number}V" editPattern="{0, number}" units="V"/>
+  <feature xsi:type="semantic:Attribute" name="ikf" title="ikf" description="Forward beta roll-off corner current" viewPattern="IKF={0, number}A" editPattern="{0, number}" units="A"/>
+  <feature xsi:type="semantic:Attribute" name="ise" title="ise" description="B-E leakage saturation current" viewPattern="ISE={0, number}A" defaultValue="0.0" editPattern="{0, number}" units="A"/>
+  <feature xsi:type="semantic:Attribute" name="ne" title="ne" description="B-E leakage emission coefficient" viewPattern="NE={0, number}" defaultValue="1.5" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="br" title="br" description="Ideal reverse beta" viewPattern="BR={0, number}" defaultValue="1" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="nr" title="nr" description="Reverse emission coefficient" viewPattern="NR={0, number}" defaultValue="1" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="var" title="var" description="Reverse Early voltage" viewPattern="VAR={0, number}V" editPattern="{0, number}" units="V"/>
+  <feature xsi:type="semantic:Attribute" name="ikr" title="ikr" description="Reverse beta roll-off corner current" viewPattern="IKR={0, number}A" editPattern="{0, number}" units="A"/>
+  <feature xsi:type="semantic:Attribute" name="isc" title="isc" description="B-C leakage saturation current" viewPattern="ISC={0, number}A" defaultValue="0.0" editPattern="{0, number}" units="A"/>
+  <feature xsi:type="semantic:Attribute" name="nc" title="nc" description="B-C leakage emission coefficient" viewPattern="NC={0, number}" defaultValue="2" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="rb" title="rb" description="Zero bias base resistance" viewPattern="RB={0, number}Ω" defaultValue="0" editPattern="{0, number}" units="Ω"/>
+  <feature xsi:type="semantic:Attribute" name="irb" title="irb" description="Current for base resistance=(rb+rbm)/2" viewPattern="IRB={0, number}A" editPattern="{0, number}" units="A"/>
+  <feature xsi:type="semantic:Attribute" name="rbm" title="rbm" description="Minimum base resistance" viewPattern="RBM={0, number}Ω" defaultValue="RB" editPattern="{0, number}" units="Ω"/>
+  <feature xsi:type="semantic:Attribute" name="rc" title="rc" description="Collector resistance" viewPattern="RC={0, number}Ω" defaultValue="0" editPattern="{0, number}" units="Ω"/>
+  <feature xsi:type="semantic:Attribute" name="cje" title="cje" description="Zero bias B-E depletion capacitance" viewPattern="CJE={0, number}F" defaultValue="0" editPattern="{0, number}" units="F"/>
+  <feature xsi:type="semantic:Attribute" name="vje" title="vje" description="B-E built in potential" viewPattern="VJE={0, number}V" defaultValue="0.75" editPattern="{0, number}" units="V"/>
+  <feature xsi:type="semantic:Attribute" name="mje" title="mje" description="B-E junction grading coefficient" viewPattern="MJE={0, number}" defaultValue="0.33" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="tf" title="tf" description="Ideal forward transit time" viewPattern="TF={0, number}s" defaultValue="0" editPattern="{0, number}" units="s"/>
+  <feature xsi:type="semantic:Attribute" name="xtf" title="xtf" description="Coefficient for bias dependence of TF" viewPattern="XTF={0, number}" defaultValue="0" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="vtf" title="vtf" description="Voltage giving VBC dependence of TF" viewPattern="VTF={0, number}V" editPattern="{0, number}" units="V"/>
+  <feature xsi:type="semantic:Attribute" name="itf" title="itf" description="High current dependence of TF" viewPattern="ITF={0, number}A" defaultValue="0" editPattern="{0, number}" units="A"/>
+  <feature xsi:type="semantic:Attribute" name="ptf" title="ptf" description="Excess phase" viewPattern="PTF={0, number}deg" defaultValue="0" editPattern="{0, number}" units="deg"/>
+  <feature xsi:type="semantic:Attribute" name="cjc" title="cjc" description="Zero bias B-C depletion capacitance" viewPattern="CJC={0, number}F" defaultValue="0" editPattern="{0, number}" units="F"/>
+  <feature xsi:type="semantic:Attribute" name="vjc" title="vjc" description="B-C built in potential" viewPattern="VJC={0, number}V" defaultValue="0.75" editPattern="{0, number}" units="V"/>
+  <feature xsi:type="semantic:Attribute" name="mjc" title="mjc" description="B-C junction grading coefficient" viewPattern="MJC={0, number}" defaultValue="0.33" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="xcjc" title="xcjc" description="Fraction of B-C cap to internal base" viewPattern="XCJC={0, number}" defaultValue="1" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="cjs" title="cjs" description="Zero bias Substrate capacitance" viewPattern="CJS={0, number}F" defaultValue="0" editPattern="{0, number}" units="F"/>
+  <feature xsi:type="semantic:Attribute" name="vjs" title="vjs" description="Substrate junction built in potential" viewPattern="VJS={0, number}V" defaultValue="0.75" editPattern="{0, number}" units="V"/>
+  <feature xsi:type="semantic:Attribute" name="mjs" title="mjs" description="Substrate junction grading coefficient" viewPattern="MJS={0, number}" defaultValue="0" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="xtb" title="xtb" description="Forward and reverse beta temp. exp." viewPattern="XTB={0, number}" defaultValue="0" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="eg" title="eg" description="Energy gap for IS temp. dependency" viewPattern="EG={0, number}eV" defaultValue="1.11" editPattern="{0, number}" units="eV"/>
+  <feature xsi:type="semantic:Attribute" name="xti" title="xti" description="Temp. exponent for IS" viewPattern="XTI={0, number}" defaultValue="3" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="fc" title="fc" description="Forward bias junction fit parameter" viewPattern="FC={0, number}" defaultValue="0.5" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="kf" title="kf" description="Flicker Noise Coefficient" viewPattern="KF={0, number}" defaultValue="0" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="af" title="af" description="Flicker Noise Exponent" viewPattern="AF={0, number}" defaultValue="1" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="iss" title="iss" description="Substrate Jct. Saturation Current" viewPattern="ISS={0, number}A" defaultValue="0.0" editPattern="{0, number}" units="A"/>
+  <feature xsi:type="semantic:Attribute" name="ns" title="ns" description="Substrate current emission coefficient" viewPattern="NS={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="rco" title="rco" description="Intrinsic coll. resistance" viewPattern="RCO={0, number}Ω" defaultValue="0" editPattern="{0, number}" units="Ω"/>
+  <feature xsi:type="semantic:Attribute" name="vo" title="vo" description="Epi drift saturation voltage" viewPattern="VO={0, number}V" defaultValue="10" editPattern="{0, number}" units="V"/>
+  <feature xsi:type="semantic:Attribute" name="gamma" title="gamma" description="Epi doping parameter" viewPattern="GAMMA={0, number}" defaultValue="1e-11" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="qco" title="qco" description="Epi Charge parameter" viewPattern="QCO={0, number}0.0" editPattern="{0, number}" units="0.0"/>
+  <feature xsi:type="semantic:Attribute" name="tlev" title="tlev" description="Temperature equation selector" viewPattern="TLEV={0, number, integer}" datatype="INTEGER" defaultValue="0" editPattern="{0, number, integer}"/>
+  <feature xsi:type="semantic:Attribute" name="tlevc" title="tlevc" description="Temperature equation selector" viewPattern="TLEVC={0, number, integer}" datatype="INTEGER" defaultValue="0" editPattern="{0, number, integer}"/>
+  <feature xsi:type="semantic:Attribute" name="tbf1" title="tbf1" description="BF 1. temperature coefficient" viewPattern="TBF1={0, number}1/°C" defaultValue="0.0" editPattern="{0, number}" units="1/°C"/>
+  <feature xsi:type="semantic:Attribute" name="tbf2" title="tbf2" description="BF 2. temperature coefficient" viewPattern="TBF2={0, number}1/°C²" defaultValue="0.0" editPattern="{0, number}" units="1/°C²"/>
+  <feature xsi:type="semantic:Attribute" name="tbr1" title="tbr1" description="BR 1. temperature coefficient" viewPattern="TBR1={0, number}1/°C" defaultValue="0.0" editPattern="{0, number}" units="1/°C"/>
+  <feature xsi:type="semantic:Attribute" name="tbr2" title="tbr2" description="BR 2. temperature coefficient" viewPattern="TBR2={0, number}1/°C²" defaultValue="0.0" editPattern="{0, number}" units="1/°C²"/>
+  <feature xsi:type="semantic:Attribute" name="tikf1" title="tikf1" description="IKF 1. temperature coefficient" viewPattern="TIKF1={0, number}1/°C" defaultValue="0.0" editPattern="{0, number}" units="1/°C"/>
+  <feature xsi:type="semantic:Attribute" name="tikf2" title="tikf2" description="IKF 2. temperature coefficient" viewPattern="TIKF2={0, number}1/°C²" defaultValue="0.0" editPattern="{0, number}" units="1/°C²"/>
+  <feature xsi:type="semantic:Attribute" name="tikr1" title="tikr1" description="IKR 1. temperature coefficient" viewPattern="TIKR1={0, number}1/°C" defaultValue="0.0" editPattern="{0, number}" units="1/°C"/>
+  <feature xsi:type="semantic:Attribute" name="tikr2" title="tikr2" description="IKR 2. temperature coefficient" viewPattern="TIKR2={0, number}1/°C²" defaultValue="0.0" editPattern="{0, number}" units="1/°C²"/>
+  <feature xsi:type="semantic:Attribute" name="tirb1" title="tirb1" description="IRB 1. temperature coefficient" viewPattern="TIRB1={0, number}1/°C" defaultValue="0.0" editPattern="{0, number}" units="1/°C"/>
+  <feature xsi:type="semantic:Attribute" name="tirb2" title="tirb2" description="IRB 2. temperature coefficient" viewPattern="TIRB2={0, number}1/°C²" defaultValue="0.0" editPattern="{0, number}" units="1/°C²"/>
+  <feature xsi:type="semantic:Attribute" name="tnc1" title="tnc1" description="NC 1. temperature coefficient" viewPattern="TNC1={0, number}1/°C" defaultValue="0.0" editPattern="{0, number}" units="1/°C"/>
+  <feature xsi:type="semantic:Attribute" name="tnc2" title="tnc2" description="NC 2. temperature coefficient" viewPattern="TNC2={0, number}1/°C²" defaultValue="0.0" editPattern="{0, number}" units="1/°C²"/>
+  <feature xsi:type="semantic:Attribute" name="tne1" title="tne1" description="NE 1. temperature coefficient" viewPattern="TNE1={0, number}1/°C" defaultValue="0.0" editPattern="{0, number}" units="1/°C"/>
+  <feature xsi:type="semantic:Attribute" name="tne2" title="tne2" description="NE 2. temperature coefficient" viewPattern="TNE2={0, number}1/°C²" defaultValue="0.0" editPattern="{0, number}" units="1/°C²"/>
+  <feature xsi:type="semantic:Attribute" name="tnf1" title="tnf1" description="NF 1. temperature coefficient" viewPattern="TNF1={0, number}1/°C" defaultValue="0.0" editPattern="{0, number}" units="1/°C"/>
+  <feature xsi:type="semantic:Attribute" name="tnf2" title="tnf2" description="NF 2. temperature coefficient" viewPattern="TNF2={0, number}1/°C²" defaultValue="0.0" editPattern="{0, number}" units="1/°C²"/>
+  <feature xsi:type="semantic:Attribute" name="tnr1" title="tnr1" description="NR 1. temperature coefficient" viewPattern="TNR1={0, number}1/°C" defaultValue="0.0" editPattern="{0, number}" units="1/°C"/>
+  <feature xsi:type="semantic:Attribute" name="tnr2" title="tnr2" description="NR 2. temperature coefficient" viewPattern="TNR2={0, number}1/°C²" defaultValue="0.0" editPattern="{0, number}" units="1/°C²"/>
+  <feature xsi:type="semantic:Attribute" name="trb1" title="trb1" description="RB 1. temperature coefficient" viewPattern="TRB1={0, number}1/°C" defaultValue="0.0" editPattern="{0, number}" units="1/°C"/>
+  <feature xsi:type="semantic:Attribute" name="trb2" title="trb2" description="RB 2. temperature coefficient" viewPattern="TRB2={0, number}1/°C²" defaultValue="0.0" editPattern="{0, number}" units="1/°C²"/>
+  <feature xsi:type="semantic:Attribute" name="trc1" title="trc1" description="RC 1. temperature coefficient" viewPattern="TRC1={0, number}1/°C" defaultValue="0.0" editPattern="{0, number}" units="1/°C"/>
+  <feature xsi:type="semantic:Attribute" name="trc2" title="trc2" description="RC 2. temperature coefficient" viewPattern="TRC2={0, number}1/°C²" defaultValue="0.0" editPattern="{0, number}" units="1/°C²"/>
+  <feature xsi:type="semantic:Attribute" name="tre1" title="tre1" description="RE 1. temperature coefficient" viewPattern="TRE1={0, number}1/°C" defaultValue="0.0" editPattern="{0, number}" units="1/°C"/>
+  <feature xsi:type="semantic:Attribute" name="tre2" title="tre2" description="RE 2. temperature coefficient" viewPattern="TRE2={0, number}1/°C²" defaultValue="0.0" editPattern="{0, number}" units="1/°C²"/>
+  <feature xsi:type="semantic:Attribute" name="trm1" title="trm1" description="RBM 1. temperature coefficient" viewPattern="TRM1={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="trm2" title="trm2" description="RBM 2. temperature coefficient" viewPattern="TRM2={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="tvaf1" title="tvaf1" description="VAF 1. temperature coefficient" viewPattern="TVAF1={0, number}1/°C" defaultValue="0.0" editPattern="{0, number}" units="1/°C"/>
+  <feature xsi:type="semantic:Attribute" name="tvaf2" title="tvaf2" description="VAF 2. temperature coefficient" viewPattern="TVAF2={0, number}1/°C²" defaultValue="0.0" editPattern="{0, number}" units="1/°C²"/>
+  <feature xsi:type="semantic:Attribute" name="tvar1" title="tvar1" description="VAR 1. temperature coefficient" viewPattern="TVAR1={0, number}1/°C" defaultValue="0.0" editPattern="{0, number}" units="1/°C"/>
+  <feature xsi:type="semantic:Attribute" name="tvar2" title="tvar2" description="VAR 2. temperature coefficient" viewPattern="TVAR2={0, number}1/°C²" defaultValue="0.0" editPattern="{0, number}" units="1/°C²"/>
+  <feature xsi:type="semantic:Attribute" name="ctc" title="ctc" description="CJC temperature coefficient" viewPattern="CTC={0, number}1/°C" defaultValue="0.0" editPattern="{0, number}" units="1/°C"/>
+  <feature xsi:type="semantic:Attribute" name="cte" title="cte" description="CJE temperature coefficient" viewPattern="CTE={0, number}1/°C" defaultValue="0.0" editPattern="{0, number}" units="1/°C"/>
+  <feature xsi:type="semantic:Attribute" name="cts" title="cts" description="CJS temperature coefficient" viewPattern="CTS={0, number}1/°C" defaultValue="0.0" editPattern="{0, number}" units="1/°C"/>
+  <feature xsi:type="semantic:Attribute" name="tvjc" title="tvjc" description="VJC temperature coefficient" viewPattern="TVJC={0, number}1/°C²" defaultValue="0.0" editPattern="{0, number}" units="1/°C²"/>
+  <feature xsi:type="semantic:Attribute" name="tvje" title="tvje" description="VJE temperature coefficient" viewPattern="TVJE={0, number}1/°C" defaultValue="0.0" editPattern="{0, number}" units="1/°C"/>
+  <feature xsi:type="semantic:Attribute" name="tvjs" title="tvjs" description="VJS temperature coefficient" viewPattern="TVJS={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="titf1" title="titf1" description="ITF 1. temperature coefficient" viewPattern="TITF1={0, number}1/°C" defaultValue="0.0" editPattern="{0, number}" units="1/°C"/>
+  <feature xsi:type="semantic:Attribute" name="titf2" title="titf2" description="ITF 2. temperature coefficient" viewPattern="TITF2={0, number}1/°C²" defaultValue="0.0" editPattern="{0, number}" units="1/°C²"/>
+  <feature xsi:type="semantic:Attribute" name="ttf1" title="ttf1" description="TF 1. temperature coefficient" viewPattern="TTF1={0, number}1/°C" defaultValue="0.0" editPattern="{0, number}" units="1/°C"/>
+  <feature xsi:type="semantic:Attribute" name="ttf2" title="ttf2" description="TF 2. temperature coefficient" viewPattern="TTF2={0, number}1/°C²" defaultValue="0.0" editPattern="{0, number}" units="1/°C²"/>
+  <feature xsi:type="semantic:Attribute" name="ttr1" title="ttr1" description="TR 1. temperature coefficient" viewPattern="TTR1={0, number}1/°C" defaultValue="0.0" editPattern="{0, number}" units="1/°C"/>
+  <feature xsi:type="semantic:Attribute" name="ttr2" title="ttr2" description="TR 2. temperature coefficient" viewPattern="TTR2={0, number}1/°C²" defaultValue="0.0" editPattern="{0, number}" units="1/°C²"/>
+  <feature xsi:type="semantic:Attribute" name="tmje1" title="tmje1" description="MJE 1. temperature coefficient" viewPattern="TMJE1={0, number}1/°C" defaultValue="0.0" editPattern="{0, number}" units="1/°C"/>
+  <feature xsi:type="semantic:Attribute" name="tmje2" title="tmje2" description="MJE 2. temperature coefficient" viewPattern="TMJE2={0, number}1/°C²" defaultValue="0.0" editPattern="{0, number}" units="1/°C²"/>
+  <feature xsi:type="semantic:Attribute" name="tmjc1" title="tmjc1" description="MJC 1. temperature coefficient" viewPattern="TMJC1={0, number}1/°C" defaultValue="0.0" editPattern="{0, number}" units="1/°C"/>
+  <feature xsi:type="semantic:Attribute" name="tmjc2" title="tmjc2" description="MJC 2. temperature coefficient" viewPattern="TMJC2={0, number}1/°C²" defaultValue="0.0" editPattern="{0, number}" units="1/°C²"/>
+  <feature xsi:type="semantic:Attribute" name="tmjs1" title="tmjs1" description="MJS 1. temperature coefficient" viewPattern="TMJS1={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="tmjs2" title="tmjs2" description="MJS 2. temperature coefficient" viewPattern="TMJS2={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="tns1" title="tns1" description="NS 1. temperature coefficient" viewPattern="TNS1={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="tns2" title="tns2" description="NS 2. temperature coefficient" viewPattern="TNS2={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="nkf" title="nkf" description="NKF High current beta rolloff exponent" viewPattern="NKF={0, number}" defaultValue="0.5" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="tis1" title="tis1" description="IS 1. temperature coefficient" viewPattern="TIS1={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="tis2" title="tis2" description="IS 2. temperature coefficient" viewPattern="TIS2={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="tise1" title="tise1" description="ISE 1. temperature coefficient" viewPattern="TISE1={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="tise2" title="tise2" description="ISE 2. temperature coefficient" viewPattern="TISE2={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="tisc1" title="tisc1" description="ISC 1. temperature coefficient" viewPattern="TISC1={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="tisc2" title="tisc2" description="ISC 2. temperature coefficient" viewPattern="TISC2={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="tiss1" title="tiss1" description="ISS 1. temperature coefficient" viewPattern="TISS1={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="tiss2" title="tiss2" description="ISS 2. temperature coefficient" viewPattern="TISS2={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="quasimod" title="quasimod" description="Temperature equation selector" viewPattern="QUASIMOD={0, number, integer}" datatype="INTEGER" editPattern="{0, number, integer}"/>
+  <feature xsi:type="semantic:Attribute" name="vg" title="egqs" description="Energy gap for QS temp. dependency" viewPattern="VG={0, number}V" defaultValue="1.206" editPattern="{0, number}" units="V"/>
+  <feature xsi:type="semantic:Attribute" name="cn" title="xrci" description="Temperature exponent of RCI" viewPattern="CN={0, number}" defaultValue="2.42" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="d" title="xd" description="Temperature exponent of VO" viewPattern="D={0, number}" defaultValue="0.87" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="pd_max" title="pd_max" description="Maximum device power dissipation" viewPattern="PD_MAX={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="ic_max" title="ic_max" description="Maximum collector current" viewPattern="IC_MAX={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="ib_max" title="ib_max" description="Maximum base current" viewPattern="IB_MAX={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="te_max" title="te_max" description="Maximum temperature" viewPattern="TE_MAX={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="rth0" title="rth0" description="Thermal resistance juntion to ambient" viewPattern="RTH0={0, number}" editPattern="{0, number}"/>
+</semantic:Semantic>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Notation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.circuitworkbench.com/library/model/notation" xmi:id="_X0wUULveEe-f09idac7W-g" title="Coupling" tooltip="Mutual Inductance" hint="mutind" path="/elementary/inductors" iconSm="MutInd.png" iconLg="MutInd@2x.png" diagram="MutInd.cdgm">
+  <semantic>MutInd.csem</semantic>
+</notation:Notation>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_X1hJULveEe-f09idac7W-g" title="JfetMod">
+  <feature xsi:type="semantic:Attribute" name="tnom" title="tnom" description="Parameter measurement temperature" viewPattern="TNOM={0, number}◦C" defaultValue="27" editPattern="{0, number}" units="◦C"/>
+</semantic:Semantic>

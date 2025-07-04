@@ -1,0 +1,8 @@
+[%
+for(p in params.values()){
+	if(p.value != null and p.value != p.defaultValue and p.name != "terminal"){
+		out.print(" ");
+		out.print(p.name + "=" + formatter.format(p.value));	
+	}
+}
+%]

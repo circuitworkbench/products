@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_X0w7YLveEe-f09idac7W-g" abstraction="false" title="Potentiometer" description="Potentiometer" icon="IecPot.png" egl="Pot.egl" evl="Pot.evl">
+  <supertype>..\..\NamedElement.csem</supertype>
+  <feature xsi:type="semantic:Attribute" name="position" title="position" description="Position of wiper connection (0.0 to 1.0)" viewPattern="POS={0, number}" defaultValue="0.5" editPattern="{0, number}" units=""/>
+  <feature xsi:type="semantic:Attribute" name="log" title="log" description="Log linear switch" viewPattern="LOG={0, number}" datatype="BOOLEAN" editPattern="{0, number}" units=""/>
+  <feature xsi:type="semantic:Attribute" name="r" title="resistance" description="Total resistance" viewPattern="R={0, number}" defaultValue="1.0e5" editPattern="{0, number}" units=""/>
+  <feature xsi:type="semantic:Attribute" name="log_multiplier" title="log_multiplier" description="Multiplier constant for log resistance" viewPattern="LOGM={0, number}" defaultValue="1.0" editPattern="{0, number}"/>
+</semantic:Semantic>
