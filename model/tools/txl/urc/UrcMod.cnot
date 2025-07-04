@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<notation:Notation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.circuitworkbench.com/library/model/notation" xmi:id="_X1D2ULveEe-f09idac7W-g" title="UrcMod" tooltip="URC Model" hint="urcmod" path="/txl/urc" iconSm="UrcMod.png" iconLg="UrcMod@2x.png" diagram="UrcMod.cdgm">
-  <semantic>UrcMod.csem</semantic>
-</notation:Notation>

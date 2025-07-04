@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_X0rb0LveEe-f09idac7W-g" abstraction="false" title="Ind" description="Inductor" icon="Ind.png" egl="Ind.egl" evl="Ind.evl">
-  <supertype>..\..\NamedElement.csem</supertype>
-  <feature xsi:type="semantic:Attribute" name="inductance" title="inductance" description="Inductance of inductor" viewPattern="{0, number}H" visible="true" editPattern="{0, number}" units="H"/>
-  <feature xsi:type="semantic:Attribute" name="ic" title="ic" description="Initial current through inductor" viewPattern="IC={0, number}" editPattern="{0, number}"/>
-</semantic:Semantic>

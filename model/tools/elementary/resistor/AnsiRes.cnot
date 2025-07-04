@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<notation:Notation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.circuitworkbench.com/library/model/notation" xmi:id="_X0ywkLveEe-f09idac7W-g" title="Resistor" tooltip="ANSI Resistor" hint="res_ansi" path="/elementary/resistors" iconSm="AnsiRes.png" iconLg="AnsiRes@2x.png" diagram="AnsiRes.cdgm">
-  <semantic>Res.csem</semantic>
-</notation:Notation>

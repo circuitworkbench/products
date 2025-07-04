@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_X1AzAbveEe-f09idac7W-g" abstraction="false" title="URC" description="Uniform distributed RC line" icon="Urc.png" egl="Urc.egl" evl="Urc.evl">
-  <supertype>..\..\NamedElement.csem</supertype>
-  <feature xsi:type="semantic:Reference" name="mod" title="model" description="Device model" viewPattern="MODEL={0}" referenceURI="UrcMod.csem" wizard="true"/>
-  <feature xsi:type="semantic:Attribute" name="l" title="len" description="Length of transmission line" viewPattern="L={0, number}m" editPattern="{0, number}" units="m"/>
-  <feature xsi:type="semantic:Attribute" name="n" title="lumps" description="Number of lumps" viewPattern="N={0, number, integer}" datatype="INTEGER" editPattern="{0, number, integer}"/>
-</semantic:Semantic>

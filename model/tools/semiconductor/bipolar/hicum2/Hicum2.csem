@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_X1fUILveEe-f09idac7W-g" abstraction="false" title="HICUM2" description="Level 8 - HICUM/L2 model" icon="..\bjt1\NpnBjt1.png" egl="Hicum2.egl" evl="Hicum2.evl">
-  <supertype>..\Bjt.csem</supertype>
-  <feature xsi:type="semantic:Reference" name="mod" title="model" description="Device model" viewPattern="MODEL={0}" referenceURI="Hicum2Mod.csem" wizard="true"/>
-  <feature xsi:type="semantic:Attribute" name="tk" title="tk" description="Actual device temperature" viewPattern="TK={0, number}" editPattern="{0, number}"/>
-  <feature xsi:type="semantic:Attribute" name="dtsh" title="dtsh" description="Temperature increase due to self-heating" viewPattern="DTSH={0, number}" editPattern="{0, number}"/>
-  <feature xsi:type="semantic:Attribute" name="it" title="it" description="Transfer current" viewPattern="IT={0, number}" editPattern="{0, number}"/>
-</semantic:Semantic>

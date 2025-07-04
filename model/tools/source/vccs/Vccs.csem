@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_X1PcgbveEe-f09idac7W-g" abstraction="false" title="VCCS" description="Voltage Controlled Current Source" icon="Vccs.png" egl="Vccs.egl" evl="Vccs.evl">
-  <supertype>..\..\NamedElement.csem</supertype>
-  <feature xsi:type="semantic:Attribute" name="trans" title="transconductance" description="Transconductance of source (gain)" viewPattern="TRANS={0, number}" visible="true" editPattern="{0, number}" units="℧"/>
-</semantic:Semantic>

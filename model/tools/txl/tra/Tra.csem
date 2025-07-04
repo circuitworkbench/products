@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_X0_k4LveEe-f09idac7W-g" abstraction="false" title="Tra" description="Transmission line" egl="Tra.egl" evl="Tra.evl">
-  <supertype>..\..\NamedElement.csem</supertype>
-  <feature xsi:type="semantic:Attribute" name="z0" title="z0" description="Characteristic impedance" viewPattern="Z0={0, number}" editPattern="{0, number}"/>
-  <feature xsi:type="semantic:Attribute" name="f" title="freq" description="Frequency" viewPattern="F={0, number}" editPattern="{0, number}"/>
-  <feature xsi:type="semantic:Attribute" name="td" title="td" description="Transmission delay" viewPattern="TD={0, number}" editPattern="{0, number}"/>
-  <feature xsi:type="semantic:Attribute" name="nl" title="nl" description="Normalized length at frequency given" viewPattern="NL={0, number}" defaultValue="0.25" editPattern="{0, number}"/>
-  <feature xsi:type="semantic:Reference" name="ic" title="ic" description="Initial condition vector:v1,i1,v2,i2" referenceURI="..\IcV1V2I1I2.csem" wizard="true"/>
-</semantic:Semantic>
