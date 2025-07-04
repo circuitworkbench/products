@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Notation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.circuitworkbench.com/library/model/notation" xmi:id="_X06sYLveEe-f09idac7W-g" title="Sw" tooltip="Voltage controlled switch" hint="sw" path="/elementary/switches" iconSm="Sw.png" iconLg="Sw@2x.png" diagram="Sw.cdgm">
+  <semantic>Sw.csem</semantic>
+</notation:Notation>

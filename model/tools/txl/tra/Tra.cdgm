@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:diagram="http://www.circuitworkbench.com/library/model/notation/diagram" xsi:schemaLocation="http://www.circuitworkbench.com/library/model/notation/diagram http://www.circuitworkbench.com/library/model/notation#//diagram" xmi:id="_X1AzALveEe-f09idac7W-g">
+  <view xsi:type="diagram:Path" hint="composite" data="M 85.000000,20.000000 C 87.000000,22.000000 87.000000,28.000000 85.000000,30.000000 M 35.000000,25.000000 L 25.000000,25.000000 M 35.000000,20.000000 L 85.000000,20.000000 M 86.500000,25.000000 L 95.000000,25.000000 M 35.000000,30.000000 L 35.000000,40.000000 L 25.000000,40.000000 M 37.000000,25.000000 C 37.000000,22.257082 36.097168,20.000000 35.000000,20.000000 C 33.902832,20.000000 33.000000,22.257082 33.000000,25.000000 C 33.000000,27.742920 33.902832,30.000000 35.000000,30.000000 C 36.097168,30.000000 37.000000,27.742920 37.000000,25.000000 Z M 85.000000,30.000000 L 85.000000,40.000000 L 95.000000,40.000000 M 35.000000,30.000000 L 85.000000,30.000000"/>
+  <terminal name="P1+" location="25 25"/>
+  <terminal name="P1-" location="25 40"/>
+  <terminal name="P2+" location="95 25"/>
+  <terminal name="P2-" location="95 40"/>
+</diagram:Diagram>

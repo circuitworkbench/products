@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_X1Sf0bveEe-f09idac7W-g" abstraction="false" title="DC Voltage" description="DC Voltage Source" icon="Battery.png" egl="Vdc.egl" evl="Vdc.evl">
+  <supertype>..\Src.csem</supertype>
+  <feature xsi:type="semantic:Attribute" name="dc" title="dc" description="DC value of source" viewPattern="{0, number}V" visible="true" editPattern="{0, number}" units="V"/>
+</semantic:Semantic>

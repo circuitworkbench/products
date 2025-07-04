@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_X0w7YLveEe-f09idac7W-g" abstraction="false" title="Resistor" description="Discrete resistor" icon="IecRes.png" egl="Res.egl" evl="Res.evl">
+  <supertype>..\..\NamedElement.csem</supertype>
+  <feature xsi:type="semantic:Attribute" name="resistance" title="resistance" description="Resistance" viewPattern="{0, number}Ω" visible="true" editPattern="{0, number}" units="Ω"/>
+</semantic:Semantic>

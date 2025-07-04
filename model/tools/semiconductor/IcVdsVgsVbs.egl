@@ -1,0 +1,1 @@
+{vds=[%=params.vds.value%], vgs=[%=params.vgs.value%], vbs=[%=params.vbs.value%]}

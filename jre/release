@@ -1,0 +1,2 @@
+JAVA_VERSION="21.0.6"
+MODULES="java.base java.compiler java.datatransfer java.xml java.prefs java.desktop java.instrument java.logging java.management java.security.sasl java.naming java.net.http java.rmi java.scripting java.security.jgss java.transaction.xa java.sql java.sql.rowset java.xml.crypto jdk.internal.jvmstat jdk.attach jdk.crypto.ec jdk.crypto.mscapi jdk.jdwp.agent jdk.jdi jdk.management jdk.net jdk.unsupported jdk.xml.dom jdk.zipfs"

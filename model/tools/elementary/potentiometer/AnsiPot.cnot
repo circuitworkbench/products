@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Notation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.circuitworkbench.com/library/model/notation" xmi:id="_X0ywkLveEe-f09idac7W-g" title="Potentiometer" tooltip="ANSI Potentiometer" hint="pot_ansi" path="/elementary/potentiometers" iconSm="AnsiPot.png" iconLg="AnsiPot@2x.png" diagram="AnsiPot.cdgm">
+  <semantic>Pot.csem</semantic>
+</notation:Notation>

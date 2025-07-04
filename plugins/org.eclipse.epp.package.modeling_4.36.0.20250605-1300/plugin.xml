@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="product"
+         name="Modeling IDE"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="org.eclipse.ui.ide.workbench"
+            name="Eclipse IDE">
+         <property
+               name="preferenceCustomization"
+               value="plugin_customization.ini">
+         </property>
+         <property
+               name="appName"
+               value="Eclipse">
+         </property>
+         <property
+               name="aboutText"
+               value="Eclipse Modeling Tools (includes Incubating components)&#x0A;&#x0A;Version: {1}&#x0A;Build id: {0}&#x0A;&#x0A;(c) Copyright Eclipse contributors and others 2000, 2025.  All rights reserved. Eclipse and the Eclipse logo are trademarks of the Eclipse Foundation, Inc., https://www.eclipse.org/. The Eclipse logo cannot be altered without Eclipse's permission. Eclipse logos are provided for use under the Eclipse logo and trademark guidelines, https://www.eclipse.org/logotm/. Oracle and Java are trademarks or registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective owners.&#x0A;&#x0A;This product includes software developed by other open source projects including the Apache Software Foundation, https://www.apache.org/.&#x0A;">
+         </property>
+         <property
+               name="startupForegroundColor"
+               value="ffffff">
+         </property>
+         <property
+               name="startupMessageRect"
+               value="7,265,320,20">
+         </property>
+         <property
+               name="startupProgressRect"
+               value="2,290,448,10">
+         </property>
+         <property
+               name="aboutImage"
+               value="eclipse_lg.png">
+         </property>
+         <property
+               name="windowImages"
+               value="eclipse16.png,eclipse32.png,eclipse48.png,eclipse256.png">
+         </property>
+         <property
+              name="introBrandingImage"
+              value="product:intro-eclipse.svg">
+         </property>
+         <property
+               name="introTitle"
+               value="Welcome to the Eclipse Modeling Tools">
+         </property>
+         <property
+               name="introBrandingImageText"
+               value="Eclipse Project">
+         </property>
+         <property
+               name="applicationXMI"
+               value="org.eclipse.platform/LegacyIDE.e4xmi">
+         </property>
+         <property 
+               name="cssTheme"
+               value="org.eclipse.e4.ui.css.theme.e4_default">
+         </property>
+         <property
+               name="applicationCSSResources" 
+               value="platform:/plugin/org.eclipse.ui.themes/images/"> 
+         </property>
+         <property
+               name="introDescription-root"
+               value="Get Started...">
+         </property>
+         <property
+               name="buildIdLocation"
+               value="0,220">
+         </property>
+         <property
+               name="buildIdSize"
+               value="293,40">
+         </property>
+      </product>
+   </extension>
+   <extension
+         point="org.eclipse.ui.intro">
+      <introProductBinding
+            introId="org.eclipse.ui.intro.universal"
+            productId="org.eclipse.epp.package.modeling.product">
+      </introProductBinding>
+   </extension>
+	<extension
+         point="org.eclipse.ui.intro.quicklinks">
+       <url
+            location="http://org.eclipse.ui.intro/showHelpTopic?id=/org.eclipse.emf.ecoretools.doc/doc/EcoreTools%20User%20Manual.html"
+            label="%ql.ecoreHelp.label"
+            description="%ql.ecoreHelp.description"
+            icon="platform:/plugin/org.eclipse.ui.intro.universal/themes/solstice/graphics/icons/ctool/start-cheatsheet.png"
+            importance="high">
+      </url>      
+      <command
+            id="org.eclipse.ui.newWizard(newWizardId=org.eclipse.ecoretools.emf.design.wizardID)"
+            description="%ql.newEcoreProject.description"
+            label="%ql.newEcoreProject.label"
+            importance="high"
+            resolution="launchbar">
+      </command>      
+      <command
+            id="org.eclipse.oomph.setup.ui.questionnaire"
+            importance="medium"
+            icon="platform:/plugin/org.eclipse.ui.intro.universal/themes/solstice/graphics/icons/ctool/settings.png"
+            label="%ql.setupQuestionnaire.label">
+      </command>
+      <override
+            command="org.eclipse.ui.newWizard*"
+            icon="platform:/plugin/org.eclipse.ui.intro.universal/themes/solstice/graphics/icons/ctool/new-project.png"
+            theme="org.eclipse.ui.intro.universal.solstice">
+      </override>      
+      <command
+            id="org.eclipse.epp.mpc.ui.command.showMarketplaceWizard(trigger=welcome)"
+            label="%ql.mpc.label"
+            description="%ql.mpc.description"
+            icon="platform:/plugin/org.eclipse.epp.mpc.ui/intro/css/marketplace.png">
+      </command>
+   </extension>
+    <!-- Make sure the 'launch' action sets are available with the modeling perspective, see bug 518086 -->
+   <extension point="org.eclipse.ui.perspectiveExtensions">
+	<perspectiveExtension targetID="org.eclipse.sirius.ui.tools.perspective.modeling">
+		<actionSet id="org.eclipse.debug.ui.launchActionSet">
+		</actionSet>
+	</perspectiveExtension>
+	</extension>
+</plugin>

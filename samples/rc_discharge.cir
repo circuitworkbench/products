@@ -1,0 +1,6 @@
+.TITLE RC AC
+R1 GND 1 5k
+C1 1 GND 20n ic=5.0
+.TRAN 5µ 1m uic
+.PRINT TRAN v(1)
+.END
