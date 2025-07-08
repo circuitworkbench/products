@@ -1,7 +1,13 @@
 # About
-CircuitWorkbench is schematic design and simulation application. It is built on top of the Eclipse platform and runs the NGSpice library under the hood.
+CircuitWorkbench is circuit schematic design and simulation application. It is built on top of the Eclipse platform and runs the NGSpice library under the hood.
 
 ![about_dialog](https://github.com/user-attachments/assets/257c7f4b-f225-4c32-8589-c95af3b3b5c5)
+
+# Features
+- Rich tools palette to build circuit diagrams
+- Multi-page schematic editor to modify the circuit diagram and netlist source side-by-side.
+- Component development tools to create your own custom device models that can be used in the schematic diagrams.
+- Platform is completely extensible. Everything from circuit device models to the SPICE engine can be replaced or extended with your own custom versions.
 
 # New installation
 CircuitWorkbench is currently only supported on the Windows operating system. Support for other operating Systems maybe provided in the future. 
