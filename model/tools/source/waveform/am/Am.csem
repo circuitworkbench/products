@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_X1GSkLveEe-f09idac7W-g" abstraction="false" title="Am" description="Amplitude modulated source" egl="Am.egl" evl="Am.evl">
+  <supertype>..\Transient.csem</supertype>
+  <feature xsi:type="semantic:Attribute" name="vo" title="vo" description="Overall Offset" viewPattern="VO={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="vmo" title="vmo" description="Modulation signal offset " viewPattern="VMO={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="vma" title="vma" description="Modulation signal amplitude" viewPattern="VMA={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="fm" title="fm" description="Modulation signal frequency" viewPattern="FM={0, number}" defaultValue="Hz" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="fc" title="fc" description="Carrier signal frequency" viewPattern="FC={0, number}" defaultValue="Hz" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="td" title="td" description="Overall delay" viewPattern="TD={0, number}s" editPattern="{0, number}" units="s"/>
+  <feature xsi:type="semantic:Attribute" name="phasem" title="phasem" description="Modulation signal phase" viewPattern="PHASEM={0, number}°" defaultValue="0.0" editPattern="{0, number}" units="°"/>
+  <feature xsi:type="semantic:Attribute" name="phasec" title="phasec" description="Carrier signal phase" viewPattern="PHASEC={0, number}°" defaultValue="0.0" editPattern="{0, number}" units="°"/>
+</semantic:Semantic>

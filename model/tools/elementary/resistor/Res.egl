@@ -1,0 +1,12 @@
+[%
+out.print(name);
+out.print(" ");
+for(t in terminals){
+	out.print(t.node);
+	if (hasMore){
+	   out.print(" ");
+	}
+}
+out.print(" ");
+out.print(formatter.format(params.resistance.value));
+%]

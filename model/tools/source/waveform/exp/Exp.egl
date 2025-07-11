@@ -1,0 +1,16 @@
+[%
+out.print("EXP");
+out.print("(");
+out.print(formatter.format(params.v1.value)); 
+out.print(" ");
+out.print(formatter.format(params.v2.value)); 
+out.print(" ");
+out.print(formatter.format(params.td1.value)); 
+out.print(" ");
+out.print(formatter.format(params.tau1.value));
+out.print(" "); 
+out.print(formatter.format(params.td2.value)); 
+out.print(" ");
+out.print(formatter.format(params.tau2.value));
+out.print(")");
+%]

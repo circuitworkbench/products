@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Notation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.circuitworkbench.com/library/model/notation" xmi:id="_X1VjILveEe-f09idac7W-g" title="Diode" tooltip="Junction Diode" hint="dio" path="/semiconductor/diodes" iconSm="Dio.png" iconLg="Dio@2x.png" diagram="Dio.cdgm">
+  <semantic>Dio.csem</semantic>
+</notation:Notation>

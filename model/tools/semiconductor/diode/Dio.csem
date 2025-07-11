@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_X1UVALveEe-f09idac7W-g" abstraction="false" title="Diode" description="Junction Diode" icon="Dio.png" egl="Dio.egl" evl="Dio.evl">
+  <supertype>..\..\NamedElement.csem</supertype>
+  <feature xsi:type="semantic:Reference" name="mod" title="model" description="Device model" viewPattern="MODEL={0}" referenceURI="DioMod.csem" wizard="true"/>
+  <feature xsi:type="semantic:Attribute" name="off" title="off" description="Initially off" viewPattern="OFF={0}" datatype="BOOLEAN" editPattern="{0}"/>
+  <feature xsi:type="semantic:Attribute" name="temp" title="temp" description="Instance temperature" viewPattern="TEMP={0, number}°C" defaultValue="27" editPattern="{0, number}" units="°C"/>
+  <feature xsi:type="semantic:Attribute" name="dtemp" title="dtemp" description="Instance delta temperature" viewPattern="DTEMP={0, number}" defaultValue="°C" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="ic" title="ic" description="Initial device voltage" viewPattern="IC={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="area" title="area" description="Area factor" viewPattern="AREA={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="pj" title="pj" description="Perimeter factor" viewPattern="PJ={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="w" title="w" description="Diode width" viewPattern="W={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="l" title="l" description="Diode length" viewPattern="L={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="lm" title="lm" description="Length of metal capacitor (level=3)" viewPattern="LM={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="lp" title="lp" description="Length of polysilicon capacitor (level=3)" viewPattern="LP={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="wm" title="wm" description="Width of metal capacitor (level=3)" viewPattern="WM={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="wp" title="wp" description="Width of polysilicon capacitor (level=3)" viewPattern="WP={0, number}" editPattern="{0, number}"/>
+</semantic:Semantic>

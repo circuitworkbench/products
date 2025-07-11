@@ -1,0 +1,147 @@
+[%
+out.print(name);
+out.print(" ");
+for(t in terminals){
+	out.print(t.node);
+	if (hasMore){
+	   out.print(" ");
+	}
+}
+out.print(" ");
+if(params.tran != null and params.tran.value != null){
+	var tran = params.tran.value;
+
+	switch (tran.type) {
+	  case "Am": {
+	  	out.print("AM");
+	  	out.print("(");
+	  	out.print(formatter.format(tran.vo.value)); 
+	  	out.print(" ");
+	  	out.print(formatter.format(tran.vmo.value));
+	  	out.print(" "); 
+	  	out.print(formatter.format(tran.vma.value)); 
+	  	out.print(" ");
+	  	out.print(formatter.format(tran.fm.value)); 
+	  	out.print(" ");
+	  	out.print(formatter.format(tran.fc.value)); 
+	  	out.print(" ");
+	  	out.print(formatter.format(tran.td.value)); 
+	  	out.print(" ");
+	  	out.print(formatter.format(tran.phasem.value));
+	  	out.print(" "); 
+	  	out.print(formatter.format(tran.phasec.value));
+	  	out.print(")");
+	  }
+	  case "Exp": {
+	    out.print("EXP");
+	    out.print("(");
+	  	out.print(formatter.format(tran.v1.value)); 
+	  	out.print(" ");
+	  	out.print(formatter.format(tran.v2.value)); 
+	  	out.print(" ");
+	  	out.print(formatter.format(tran.td1.value)); 
+	  	out.print(" ");
+	  	out.print(formatter.format(tran.tau1.value));
+	  	out.print(" "); 
+	  	out.print(formatter.format(tran.td2.value)); 
+	  	out.print(" ");
+	  	out.print(formatter.format(tran.tau2.value));
+	  	out.print(")");
+	  }
+	  case "Pulse": { 
+	  	out.print("PULSE");
+	  	out.print("(");
+	  	out.print(formatter.format(tran.v1.value)); 
+	  	out.print(" ");
+	  	out.print(formatter.format(tran.v2.value)); 
+	  	out.print(" ");
+	  	out.print(formatter.format(tran.td.value)); 
+	  	out.print(" ");
+	  	out.print(formatter.format(tran.tr.value)); 
+	  	out.print(" ");
+	  	out.print(formatter.format(tran.tf.value)); 
+	  	out.print(" ");
+	  	out.print(formatter.format(tran.pw.value)); 
+	  	out.print(" ");
+	  	out.print(formatter.format(tran.per.value)); 
+	  	out.print(")");
+	  }
+	  case "Pwl": { 
+	  	out.print("PWL");
+	  	out.print("(");
+	  	out.print(formatter.format(tran.points.value));
+	  	out.print(")");
+	  	out.print(formatter.format(tran.r.value)); 
+	  	out.print(" ");
+	  	out.print(formatter.format(tran.td.value));
+	  }
+	  case "Sffm": {
+	  	out.print("SFFM");
+	  	out.print("(");
+	  	out.print(formatter.format(tran.vo.value)); 
+	  	out.print(" ");
+	  	out.print(formatter.format(tran.va.value)); 
+	  	out.print(" ");
+	  	out.print(formatter.format(tran.fm.value)); 
+	  	out.print(" ");
+	  	out.print(formatter.format(tran.mdi.value)); 
+	  	out.print(" ");
+	  	out.print(formatter.format(tran.fc.value)); 
+	  	out.print(" ");
+	  	out.print(formatter.format(tran.td.value)); 
+	  	out.print(" ");
+	  	out.print(formatter.format(tran.phasem.value)); 
+	  	out.print(" ");
+	  	out.print(formatter.format(tran.phasec.value));
+	  	out.print(")");
+	  }
+	  case "Sine": {
+	  	out.print("SIN");
+	  	out.print("(");
+	  	out.print(formatter.format(tran.vo.value)); 
+	  	out.print(" ");
+	  	out.print(formatter.format(tran.va.value));
+	  	out.print(" "); 
+	  	out.print(formatter.format(tran.freq.value)); 
+	  	out.print(" ");
+	  	out.print(formatter.format(tran.td.value)); 
+	  	out.print(" ");
+	  	out.print(formatter.format(tran.theta.value)); 
+	  	out.print(" ");
+	  	out.print(formatter.format(tran.phase.value));
+	  	out.print(")");
+	  }
+	  default: out.print(""); 
+	}
+
+} else {
+	out.print(formatter.format(params.dc.value));
+}
+if(params.ac != null and params.ac.value != null){
+	var ac = params.ac.value;
+	out.print(" ");
+	out.print("AC");
+	out.print(" ");
+	out.print(formatter.format(ac.mag.value));
+	out.print(" ");
+	out.print(ac.phase.value);
+}
+if(params.distof1 != null and params.distof1.value != null){
+	var distof1 = params.distof1.value;
+	out.print(" ");
+	out.print("DISTOF1");
+	out.print(" ");
+	out.print(formatter.format(distof1.mag.value));
+	out.print(" ");
+	out.print(distof1.phase.value);
+}
+if(params.distof2 != null and params.distof2.value != null){
+	var distof2 = params.distof2.value;
+	out.print(" ");
+	out.print("DISTOF2");
+	out.print(" ");
+	out.print(formatter.format(distof2.mag.value));
+	out.print(" ");
+	out.print(distof2.phase.value);
+}
+%]

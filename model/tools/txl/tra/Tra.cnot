@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Notation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.circuitworkbench.com/library/model/notation" xmi:id="_X1AL8LveEe-f09idac7W-g" title="Tra" tooltip="Transmission line" hint="tra" path="/txl" iconSm="Tra.png" iconLg="Tra@2x.png" diagram="Tra.cdgm">
+  <semantic>Tra.csem</semantic>
+</notation:Notation>

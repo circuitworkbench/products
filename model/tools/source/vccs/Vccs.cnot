@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Notation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.circuitworkbench.com/library/model/notation" xmi:id="_X1QqoLveEe-f09idac7W-g" title="VCCS" tooltip="Voltage Controlled Current Source" hint="vccs" path="/sources/dependent" iconSm="Vccs.png" iconLg="Vccs@2x.png" diagram="Vccs.cdgm">
+  <semantic>Vccs.csem</semantic>
+</notation:Notation>

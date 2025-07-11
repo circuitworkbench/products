@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_X1EdYLveEe-f09idac7W-g" abstraction="false" title="Pulse" description="Pulse" egl="Pulse.egl" evl="Pulse.evl">
+  <supertype>..\Transient.csem</supertype>
+  <feature xsi:type="semantic:Attribute" name="v1" title="v1" description="Initial value" viewPattern="V1={0, number}V/A" editPattern="{0, number}" units="V/A"/>
+  <feature xsi:type="semantic:Attribute" name="v2" title="v2" description="Pulsed value" viewPattern="V2={0, number}V/A" editPattern="{0, number}" units="V/A"/>
+  <feature xsi:type="semantic:Attribute" name="td" title="td" description="Delay time" viewPattern="TD={0, number}s" defaultValue="0.0" editPattern="{0, number}" units="s"/>
+  <feature xsi:type="semantic:Attribute" name="tr" title="tr" description="Rise time" viewPattern="TR={0, number}s" defaultValue="0.0" editPattern="{0, number}" units="s"/>
+  <feature xsi:type="semantic:Attribute" name="tf" title="tf" description="Fall time" viewPattern="TF={0, number}s" defaultValue="0.0" editPattern="{0, number}" units="s"/>
+  <feature xsi:type="semantic:Attribute" name="pw" title="pw" description="Pulse width" viewPattern="PW={0, number}s" defaultValue="" editPattern="{0, number}" units="s"/>
+  <feature xsi:type="semantic:Attribute" name="per" title="per" description="Period" viewPattern="PER={0, number}s" defaultValue="1" editPattern="{0, number}" units="s"/>
+</semantic:Semantic>

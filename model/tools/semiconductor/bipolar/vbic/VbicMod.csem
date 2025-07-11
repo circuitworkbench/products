@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_X1etELveEe-f09idac7W-g" abstraction="false" title="VBIC Model" description="VBIC Model" egl="VbicMod.egl" evl="VbicMod.evl">
+  <supertype>..\BjtMod.csem</supertype>
+  <feature xsi:type="semantic:Attribute" name="selft" title="selft" description="0: self-heating off, 1: self-heating on" viewPattern="SELFT={0, number, integer}" datatype="INTEGER" editPattern="{0, number, integer}"/>
+  <feature xsi:type="semantic:Attribute" name="rcx" title="rcx" description="Extrinsic coll resistance" viewPattern="RCX={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="rci" title="rci" description="Intrinsic coll resistance" viewPattern="RCI={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="vo" title="vo" description="Epi drift saturation voltage" viewPattern="VO={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="gamm" title="gamm" description="Epi doping parameter" viewPattern="GAMM={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="hrcf" title="hrcf" description="High current RC factor" viewPattern="HRCF={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="rbx" title="rbx" description="Extrinsic base resistance" viewPattern="RBX={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="rbi" title="rbi" description="Intrinsic base resistance" viewPattern="RBI={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="rs" title="rs" description="Intrinsic substrate resistance" viewPattern="RS={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="rbp" title="rbp" description="Parasitic base resistance" viewPattern="RBP={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="is" title="is" description="Transport saturation current" viewPattern="IS={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="nf" title="nf" description="Forward emission coefficient" viewPattern="NF={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="nr" title="nr" description="Reverse emission coefficient" viewPattern="NR={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="fc" title="fc" description="Fwd bias depletion capacitance limit" viewPattern="FC={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="cbeo" title="cbeo" description="Extrinsic B-E overlap capacitance" viewPattern="CBEO={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="cje" title="cje" description="Zero bias B-E depletion capacitance" viewPattern="CJE={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="pe" title="pe" description="B-E built in potential" viewPattern="PE={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="me" title="me" description="B-E junction grading coefficient" viewPattern="ME={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="aje" title="aje" description="B-E capacitance smoothing factor" viewPattern="AJE={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="cbco" title="cbco" description="Extrinsic B-C overlap capacitance" viewPattern="CBCO={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="cjc" title="cjc" description="Zero bias B-C depletion capacitance" viewPattern="CJC={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="qco" title="qco" description="Epi charge parameter" viewPattern="QCO={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="cjep" title="cjep" description="B-C extrinsic zero bias capacitance" viewPattern="CJEP={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="pc" title="pc" description="B-C built in potential" viewPattern="PC={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="mc" title="mc" description="B-C junction grading coefficient" viewPattern="MC={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="ajc" title="ajc" description="B-C capacitance smoothing factor" viewPattern="AJC={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="cjcp" title="cjcp" description="Zero bias S-C capacitance" viewPattern="CJCP={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="ps" title="ps" description="S-C junction built in potential" viewPattern="PS={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="ms" title="ms" description="S-C junction grading coefficient" viewPattern="MS={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="ajs" title="ajs" description="S-C capacitance smoothing factor" viewPattern="AJS={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="ibei" title="ibei" description="Ideal B-E saturation current" viewPattern="IBEI={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="wbe" title="wbe" description="Portion of IBEI from Vbei, 1-WBE from Vbex" viewPattern="WBE={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="nei" title="nei" description="Ideal B-E emission coefficient" viewPattern="NEI={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="iben" title="iben" description="Non-ideal B-E saturation current" viewPattern="IBEN={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="nen" title="nen" description="Non-ideal B-E emission coefficient" viewPattern="NEN={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="ibci" title="ibci" description="Ideal B-C saturation current" viewPattern="IBCI={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="nci" title="nci" description="Ideal B-C emission coefficient" viewPattern="NCI={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="ibcn" title="ibcn" description="Non-ideal B-C saturation current" viewPattern="IBCN={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="ncn" title="ncn" description="Non-ideal B-C emission coefficient" viewPattern="NCN={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="avc1" title="avc1" description="B-C weak avalanche parameter 1" viewPattern="AVC1={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="avc2" title="avc2" description="B-C weak avalanche parameter 2" viewPattern="AVC2={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="isp" title="isp" description="Parasitic transport saturation current" viewPattern="ISP={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="wsp" title="wsp" description="Portion of ICCP" viewPattern="WSP={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="nfp" title="nfp" description="Parasitic fwd emission coefficient" viewPattern="NFP={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="ibeip" title="ibeip" description="Ideal parasitic B-E saturation current" viewPattern="IBEIP={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="ibenp" title="ibenp" description="Non-ideal parasitic B-E saturation current" viewPattern="IBENP={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="ibcip" title="ibcip" description="Ideal parasitic B-C saturation current" viewPattern="IBCIP={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="ncip" title="ncip" description="Ideal parasitic B-C emission coefficient" viewPattern="NCIP={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="ibcnp" title="ibcnp" description="Nonideal parasitic B-C saturation current" viewPattern="IBCNP={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="ncnp" title="ncnp" description="Nonideal parasitic B-C emission coefficient" viewPattern="NCNP={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="vef" title="vef" description="Forward Early voltage" viewPattern="VEF={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="ver" title="ver" description="Reverse Early voltage" viewPattern="VER={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="ikf" title="ikf" description="Forward knee current" viewPattern="IKF={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="ikr" title="ikr" description="Reverse knee current" viewPattern="IKR={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="ikp" title="ikp" description="Parasitic knee current" viewPattern="IKP={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="tf" title="tf" description="Ideal forward transit time" viewPattern="TF={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="qtf" title="qtf" description="Variation of TF with base-width modulation" viewPattern="QTF={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="xtf" title="xtf" description="Coefficient for bias dependence of TF" viewPattern="XTF={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="vtf" title="vtf" description="Voltage giving VBC dependence of TF" viewPattern="VTF={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="itf" title="itf" description="High current dependence of TF" viewPattern="ITF={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="td" title="td" description="Forward excess-phase delay time" viewPattern="TD={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="kfn" title="kfn" description="B-E Flicker Noise Coefficient" viewPattern="KFN={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="afn" title="afn" description="B-E Flicker Noise Exponent" viewPattern="AFN={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="bfn" title="bfn" description="B-E Flicker Noise 1/f dependence" viewPattern="BFN={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="xre" title="xre" description="Temperature exponent of RE" viewPattern="XRE={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="xrbi" title="xrbi" description="Temperature exponent of RBI" viewPattern="XRBI={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="xrci" title="xrci" description="Temperature exponent of RCI" viewPattern="XRCI={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="xrs" title="xrs" description="Temperature exponent of RS" viewPattern="XRS={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="xvo" title="xvo" description="Temperature exponent of VO" viewPattern="XVO={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="ea" title="ea" description="Activation energy for IS" viewPattern="EA={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="eaie" title="eaie" description="Activation energy for IBEI" viewPattern="EAIE={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="eaic" title="eaic" description="Activation energy for IBCI/IBEIP" viewPattern="EAIC={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="eais" title="eais" description="Activation energy for IBCIP" viewPattern="EAIS={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="eane" title="eane" description="Activation energy for IBEN" viewPattern="EANE={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="eanc" title="eanc" description="Activation energy for IBCN/IBENP" viewPattern="EANC={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="eans" title="eans" description="Activation energy for IBCNP" viewPattern="EANS={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="xis" title="xis" description="Temperature exponent of IS" viewPattern="XIS={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="xii" title="xii" description="Temperature exponent of IBEI,IBCI,IBEIP,IBCIP" viewPattern="XII={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="xin" title="xin" description="Temperature exponent of IBEN,IBCN,IBENP,IBCNP" viewPattern="XIN={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="tnf" title="tnf" description="Temperature exponent of NF" viewPattern="TNF={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="tavc" title="tavc" description="Temperature exponent of AVC2" viewPattern="TAVC={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="rth" title="rth" description="Thermal resistance" viewPattern="RTH={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="cth" title="cth" description="Thermal capacitance" viewPattern="CTH={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="vrt" title="vrt" description="Punch-through voltage of internal B-C junction" viewPattern="VRT={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="art" title="art" description="Smoothing parameter for reach-through" viewPattern="ART={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="ccso" title="ccso" description="Fixed C-S capacitance" viewPattern="CCSO={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="qbm" title="qbm" description="Select SGP qb formulation" viewPattern="QBM={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="nkf" title="nkf" description="High current beta rolloff" viewPattern="NKF={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="xikf" title="xikf" description="Temperature exponent of IKF" viewPattern="XIKF={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="xrcx" title="xrcx" description="Temperature exponent of RCX" viewPattern="XRCX={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="xrbx" title="xrbx" description="Temperature exponent of RBX" viewPattern="XRBX={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="xrbp" title="xrbp" description="Temperature exponent of RBP" viewPattern="XRBP={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="isrr" title="isrr" description="Separate IS for fwd and rev" viewPattern="ISRR={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="xisr" title="xisr" description="Temperature exponent of ISR" viewPattern="XISR={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="dear" title="dear" description="Delta activation energy for ISRR" viewPattern="DEAR={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="eap" title="eap" description="Exitivation energy for ISP" viewPattern="EAP={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="vbbe" title="vbbe" description="B-E breakdown voltage" viewPattern="VBBE={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="nbbe" title="nbbe" description="B-E breakdown emission coefficient" viewPattern="NBBE={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="ibbe" title="ibbe" description="B-E breakdown current" viewPattern="IBBE={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="tvbbe1" title="tvbbe1" description="Linear temperature coefficient of VBBE" viewPattern="TVBBE1={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="tvbbe2" title="tvbbe2" description="Quadratic temperature coefficient of VBBE" viewPattern="TVBBE2={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="tnbbe" title="tnbbe" description="Temperature coefficient of NBBE" viewPattern="TNBBE={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="ebbe" title="ebbe" description="Exp(-VBBE/(NBBE*Vtv))" viewPattern="EBBE={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="dtemp" title="dtemp" description="Locale Temperature difference" viewPattern="DTEMP={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="vers" title="vers" description="Revision Version" viewPattern="VERS={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="vref" title="vref" description="Reference Version" viewPattern="VREF={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="vsub_max" title="vsub_max" description="Maximum voltage C-substrate branch" viewPattern="VSUB_MAX={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="vbefwd" title="vbefwd_max" description="Maximum forward voltage B-E junction" viewPattern="VBEFWD={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="vbcfwd" title="vbcfwd_max" description="Maximum forward voltage B-C junction" viewPattern="VBCFWD={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="vsubfwd" title="vsubfwd_max" description="Maximum forward voltage C-substrate junction" viewPattern="VSUBFWD={0, number}" editPattern="{0, number}"/>
+</semantic:Semantic>
