@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_X12ggLveEe-f09idac7W-g" abstraction="false" title="MOS Level 9" description="Level 9 - MOS model" icon="..\mos1\Nmos.png" egl="Mos9.egl" evl="Mos9.evl">
-  <supertype>..\Mos.csem</supertype>
-  <feature xsi:type="semantic:Reference" name="mod" title="model" description="Device model" viewPattern="MODEL={0}" referenceURI="Mos9Mod.csem" wizard="true"/>
-</semantic:Semantic>

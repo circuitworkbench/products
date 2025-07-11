@@ -1,6 +1,0 @@
-context MutInd {
-  constraint HasValidName {  
-    check : self.name.isDefined() and self.name.matches("(K|k)[A-Za-z0-9]+")
-    message : "Invalid mutual inductance name"
-  } 
-}

@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<notation:Notation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.circuitworkbench.com/library/model/notation" xmi:id="_X1LLELveEe-f09idac7W-g" title="CCCS" tooltip="Current Controlled Current Source" hint="cccs" path="/sources/dependent" iconSm="Cccs.png" iconLg="Cccs@2x.png" diagram="Cccs.cdgm">
-  <semantic>Cccs.csem</semantic>
-</notation:Notation>

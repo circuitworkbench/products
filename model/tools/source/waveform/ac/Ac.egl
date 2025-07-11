@@ -1,1 +1,0 @@
-AC [%=formatter.format(params.mag.value)%] [%=params.phase.value%]

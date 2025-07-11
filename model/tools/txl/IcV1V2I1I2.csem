@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_UemPkNnUEe-hza64LJqvxA" abstraction="false" title="Initial Conditions" description="Initial conditions vector V1, I1, V2, I2" egl="IcV1V2I1I2.egl" evl="IcV1V2I1I2.evl">
-  <feature xsi:type="semantic:Attribute" xmi:id="_UemPkdnUEe-hza64LJqvxA" name="v1" title="v1" description="Initial voltage at end 1&#xD;" units="V"/>
-  <feature xsi:type="semantic:Attribute" name="v2" title="v2" description="Initial voltage at end 2" units="V"/>
-  <feature xsi:type="semantic:Attribute" name="i1" title="i1" description="Initial current at end 1&#xD;" units="A"/>
-  <feature xsi:type="semantic:Attribute" name="i2" title="i2" description="Initial current at end 2" units="A"/>
-</semantic:Semantic>

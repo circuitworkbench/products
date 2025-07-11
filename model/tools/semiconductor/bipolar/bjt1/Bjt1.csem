@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_X1Z0kLveEe-f09idac7W-g" abstraction="false" title="BJT Level 1" description="Level 1 - Original SPICE BJT model" icon="NpnBjt1.png" egl="Bjt1.egl" evl="Bjt1.evl">
-  <supertype>..\Bjt.csem</supertype>
-  <feature xsi:type="semantic:Reference" name="mod" title="model" description="Device model" viewPattern="MODEL={0}" referenceURI="Bjt1Mod.csem" wizard="true"/>
-  <feature xsi:type="semantic:Attribute" name="area" title="area" description="(Emitter) Area factor" viewPattern="AREA={0, number}" editPattern="{0, number}"/>
-  <feature xsi:type="semantic:Attribute" name="areab" title="areab" description="Base area factor" viewPattern="AREAB={0, number}" editPattern="{0, number}"/>
-  <feature xsi:type="semantic:Attribute" name="areac" title="areac" description="Collector area factor" viewPattern="AREAC={0, number}" editPattern="{0, number}"/>
-</semantic:Semantic>
