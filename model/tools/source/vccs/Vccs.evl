@@ -1,0 +1,10 @@
+context Vccs {
+  constraint HasValidName {  
+    check : self.name.isDefined() and self.name.matches("(G|g)[A-Za-z0-9]+")
+    message : "Invalid VCCS name"
+  }
+  critique HasValidConnections { 
+    check : self.terminal.forAll(t | t.node != null and t.node.length() >= 0)
+    message : "Floating pins"
+  }
+}

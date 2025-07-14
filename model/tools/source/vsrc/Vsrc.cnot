@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Notation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.circuitworkbench.com/library/model/notation" xmi:id="_X1TG4LveEe-f09idac7W-g" title="Vsrc" tooltip="Independent Voltage Source" hint="vsrc" path="/sources/vsources" iconSm="vsrc.png" iconLg="vsrc@2x.png" diagram="Vsrc.cdgm">
+  <semantic>Vsrc.csem</semantic>
+</notation:Notation>

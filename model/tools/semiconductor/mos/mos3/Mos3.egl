@@ -1,0 +1,98 @@
+//MOS [%=name%]
+[%
+out.print(name);
+out.print(" ");
+for(t in terminals){
+	out.print(t.node);
+	if (hasMore){
+	   out.print(" ");
+	}
+}
+out.print(" ");
+out.print("mmod_" + name.toLowerCase());
+if(params.l?.value != null and params.l?.value != params.l?.defaultValue){
+	out.print(" ");
+	out.print("l=" + formatter.format(params.l?.value));		
+}
+if(params.w?.value != null and params.w?.value != params.w?.defaultValue){
+	out.print(" ");
+	out.print("w=" + formatter.format(params.w?.value));		
+}
+if(params.ad?.value != null and params.ad?.value != params.ad?.defaultValue){
+	out.print(" ");
+	out.print("ad=" + formatter.format(params.ad?.value));		
+}
+if(params.`as`?.value != null and params.`as`?.value != params.`as`?.defaultValue){
+	out.print(" ");
+	out.print("as=" + formatter.format(params.`as`?.value));		
+}
+if(params.pd?.value != null and params.pd?.value != params.pd?.defaultValue){
+	out.print(" ");
+	out.print("pd=" + formatter.format(params.pd?.value));		
+}
+if(params.ps?.value != null and params.ps?.value != params.ps?.defaultValue){
+	out.print(" ");
+	out.print("ps=" + formatter.format(params.ps?.value));		
+}
+if(params.nrd?.value != null and params.nrd?.value != params.nrd?.defaultValue){
+	out.print(" ");
+	out.print("nrd=" + formatter.format(params.nrd?.value));		
+}
+if(params.nrs?.value != null and params.nrs?.value != params.nrs?.defaultValue){
+	out.print(" ");
+	out.print("nrs=" + formatter.format(params.nrs?.value));		
+}
+if(params.off?.value){
+	out.print(" ");
+	out.print("off");		
+}
+if(params.ic?.value != null){
+    var ic = params.ic.value;
+	out.print(" ");
+	out.print("ic=" + formatter.format(ic.vds.value) + "," + formatter.format(ic.vgs.value) + "," + formatter.format(ic.vbs.value));		
+}
+if(params.temp?.value != null and params.temp?.value != params.temp?.defaultValue){
+	out.print(" ");
+	out.print("temp=" + formatter.format(params.temp?.value));		
+}
+if(params.dtemp?.value != null and params.dtemp?.value != params.dtemp?.defaultValue){
+	out.print(" ");
+	out.print("dtemp=" + formatter.format(params.dtemp?.value));		
+}
+%]
+[%
+var mod = params.mod?.value;
+out.println("");
+out.print(".MODEL");
+out.print(" ");
+out.print("mmod_" + name.toLowerCase());
+out.print(" ");
+if(hint.endsWith("pmos")){
+	out.print("PMOS");
+} else {
+	out.print("NMOS");
+}
+out.print(" ");
+out.print("level=3");
+if(mod != null){
+	out.print(" ");
+	var index = 0;
+	for(key in mod.keySet()){
+		if(key.equalsIgnoreCase("type") or key.equalsIgnoreCase("terminal")){
+			continue;
+		}
+		var mp = mod.get(key);
+		if(mp?.value != null and mp?.value != mp?.defaultValue){
+			if(index > 0){
+				if(index == 4 or (index - 4).mod(7) == 0){
+					out.println("");
+					out.print("+");
+				}
+				out.print(" ");				
+			}
+			out.print(mp.name + "=" + formatter.format(mp.value));		
+			index += 1;
+		}
+	}
+}
+%]

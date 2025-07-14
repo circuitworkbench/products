@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Notation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.circuitworkbench.com/library/model/notation" xmi:id="_X1MZMLveEe-f09idac7W-g" title="CCVS" tooltip="Current Controlled Voltage Source" hint="ccvs" path="/sources/dependent" iconSm="Ccvs.png" iconLg="Ccvs@2x.png" diagram="Ccvs.cdgm">
+  <semantic>Ccvs.csem</semantic>
+</notation:Notation>
