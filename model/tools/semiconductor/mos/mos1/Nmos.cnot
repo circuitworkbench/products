@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<notation:Notation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.circuitworkbench.com/library/model/notation" xmi:id="_X1yPELveEe-f09idac7W-g" title="NMOS" tooltip="N-type MOSFET" hint="nmos" path="/semiconductor/mosfets" iconSm="Nmos.png" iconLg="Nmos@2x.png" diagram="Nmos.cdgm">
-  <semantic>Mos1.csem</semantic>
-  <semantic>..\mos2\Mos2.csem</semantic>
-  <semantic>..\mos3\Mos3.csem</semantic>
-  <semantic>..\mos6\Mos6.csem</semantic>
-  <semantic>..\mos9\Mos9.csem</semantic>
-</notation:Notation>

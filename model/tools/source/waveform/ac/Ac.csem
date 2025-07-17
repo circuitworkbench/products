@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_X1IHwLveEe-f09idac7W-g" abstraction="false" title="Ac" description="Alternating Current" egl="Ac.egl" evl="Ac.evl">
-  <feature xsi:type="semantic:Attribute" name="mag" title="magnitude" description="AC Magnitude" viewPattern="MAG={0, number}" editPattern="{0, number}"/>
-  <feature xsi:type="semantic:Attribute" name="phase" title="phase" description="AC Phase" viewPattern="PHASE={0, number}" editPattern="{0, number}"/>
-</semantic:Semantic>

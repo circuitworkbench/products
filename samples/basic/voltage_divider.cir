@@ -1,7 +1,0 @@
-.TITLE Voltage Divider
-R1 1 out 1k
-R2 out GND 2k
-V1 1 GND 1
-.OP
-.PRINT v(out) @R1[p]
-.END

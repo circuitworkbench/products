@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_X1FrgLveEe-f09idac7W-g" abstraction="false" title="Pwl" description="Piece-Wise Linear" egl="Pwl.egl" evl="Pwl.evl">
-  <supertype>..\Transient.csem</supertype>
-  <feature xsi:type="semantic:Attribute" name="points" title="Points" description="Time-value points" viewPattern="POINTS={0}" datatype="STRING" editPattern="{0}"/>
-  <feature xsi:type="semantic:Attribute" name="r" title="r" description="Repeat time" viewPattern="R={0, number}s" defaultValue="0.0" editPattern="{0, number}" units="s"/>
-  <feature xsi:type="semantic:Attribute" name="td" title="td" description="Time delay" viewPattern="TD={0, number}s" defaultValue="0.0" editPattern="{0, number}" units="s"/>
-</semantic:Semantic>

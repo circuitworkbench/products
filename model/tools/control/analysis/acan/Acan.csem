@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_X0U2gbveEe-f09idac7W-g" abstraction="false" title="Acan" description="AC Analysis" icon="Acan.png" egl="Acan.egl" evl="Acan.evl">
-  <supertype>..\Analysis.csem</supertype>
-  <feature xsi:type="semantic:Attribute" name="variation" title="variation" description="Variation" viewPattern="VARIATION={0}" datatype="ENUM" editPattern="{0}" options="DEC=Decade, OCT=Octave, LIN=Linear"/>
-  <feature xsi:type="semantic:Attribute" name="nd" title="nd" description="Number of points per variation" viewPattern="ND={0, number, integer}" datatype="INTEGER" defaultValue="1" editPattern="{0, number, integer}"/>
-  <feature xsi:type="semantic:Attribute" name="fstart" title="fstart" description="Starting frequency" viewPattern="FSTART={0, number}" editPattern="{0, number}"/>
-  <feature xsi:type="semantic:Attribute" name="fstop" title="fstop" description="Final frequency" viewPattern="FSTOP={0, number}" editPattern="{0, number}"/>
-</semantic:Semantic>

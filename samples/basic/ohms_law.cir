@@ -1,6 +1,0 @@
-.TITLE Ohm's Law
-V1 1 GND 12.0
-R1 1 GND 100.0
-.DC v1 0.0 12.0 500m
-.PRINT DC v(1)
-.END

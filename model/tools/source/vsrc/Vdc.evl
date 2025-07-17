@@ -1,6 +1,0 @@
-context Vdc {
-  constraint HasValidName {  
-    check : self.name.isDefined() and self.name.matches("(V|v)[A-Za-z0-9]+")
-    message : "Invalid voltage source name"
-  }
-}

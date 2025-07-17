@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<notation:Notation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.circuitworkbench.com/library/model/notation" xmi:id="_X02a8LveEe-f09idac7W-g" title="Csw" tooltip="Current controlled switch" hint="csw" path="/elementary/switches" iconSm="Csw.png" iconLg="Csw@2x.png" diagram="Csw.cdgm">
-  <semantic>Csw.csem</semantic>
-</notation:Notation>

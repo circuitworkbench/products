@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<notation:Notation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.circuitworkbench.com/library/model/notation" xmi:id="_X1bCsbveEe-f09idac7W-g" title="PNP" tooltip="P-type BJT" hint="bjt1_pnp" path="/semiconductor/bjts" iconSm="PnpBjt1.png" iconLg="PnpBjt1@2x.png" diagram="PnpBjt1.cdgm">
-  <semantic>Bjt1.csem</semantic>
-  <semantic>..\vbic\Vbic.csem</semantic>
-  <semantic>..\hicum2\Hicum2.csem</semantic>
-</notation:Notation>
