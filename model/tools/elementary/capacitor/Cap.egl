@@ -1,0 +1,17 @@
+[%
+out.print(name);
+out.print(" ");
+for(t in terminals){
+	out.print(t.node);
+	if(hasMore){
+	   out.print(" ");
+	}
+}
+out.print(" ");
+out.print(formatter.format(params.capacitance.value));
+if(params.ic != null and params.ic.value != null){
+	out.print(" ");
+	out.print("IC=");
+	out.print(formatter.format(params.ic.value));
+}
+%]

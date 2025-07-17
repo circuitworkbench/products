@@ -1,0 +1,20 @@
+//CCCS [%=name%]
+[%
+out.print("vsrc_" + name.toLowerCase());
+out.print(" ");
+out.print(terminals[2].node);
+out.print(" ");
+out.print(terminals[3].node);
+out.println(" 0");
+%]
+[%
+out.print(name);
+out.print(" ");
+out.print(terminals[0].node);
+out.print(" ");
+out.print(terminals[1].node);
+out.print(" ");
+out.print("vsrc_" + name.toLowerCase());
+out.print(" ");
+out.print(formatter.format(params.gain.value));
+%]

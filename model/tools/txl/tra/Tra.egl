@@ -1,0 +1,32 @@
+[%
+out.print(name);
+out.print(" ");
+for(t in terminals){
+	out.print(t.node);
+	if (hasMore){
+	   out.print(" ");
+	}
+}
+out.print(" ");
+if(params.z0?.value != null and params.z0?.value != params.z0?.defaultValue){
+	out.print(" ");
+	out.print("z0=" + params.z0?.value);		
+}
+if(params.freq?.value != null and params.freq?.value != params.freq?.defaultValue){
+	out.print(" ");
+	out.print("freq=" + params.freq?.value);		
+}
+if(params.td?.value != null and params.td?.value != params.td?.defaultValue){
+	out.print(" ");
+	out.print("td=" + params.td?.value);		
+}
+if(params.nl?.value != null and params.nl?.value != params.nl?.defaultValue){
+	out.print(" ");
+	out.print("nl=" + params.nl?.value);		
+}
+if(params.ic?.value != null){
+    var ic = params.ic.value;
+	out.print(" ");
+	out.print("ic=" + ic.v1.value + "," + ic.i1.value + "," + ic.v2.value + "," + ic.i2.value);		
+}
+%]

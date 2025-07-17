@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_X0kHEbveEe-f09idac7W-g" abstraction="false" title="Ground" description="Circuit ground reference" icon="EarthGround.png" egl="Ground.egl" evl="Ground.evl"/>

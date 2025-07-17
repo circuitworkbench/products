@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Notation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.circuitworkbench.com/library/model/notation" xmi:id="_X1i-gLveEe-f09idac7W-g" title="NJF" tooltip="N-type JFET" hint="NJF" path="/semiconductor/jfets" iconSm="NjfJfet1.png" iconLg="NjfJfet1@2x.png" diagram="NjfJfet1.cdgm">
+  <semantic>Jfet1.csem</semantic>
+  <semantic>..\jfet2\Jfet2.csem</semantic>
+</notation:Notation>

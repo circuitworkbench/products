@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_UemPkNnUEe-hza64LJqvxA" abstraction="false" title="Initial Conditions" description="Initial conditions vector VDS, VGS, VBS" egl="IcVdsVgsVbs.egl" evl="IcVdsVgsVbs.evl">
+  <supertype>IcVdsVgs.csem</supertype>
+  <feature xsi:type="semantic:Attribute" name="vbs" title="vbs" description="Bulk-Source Voltage" units="V"/>
+</semantic:Semantic>

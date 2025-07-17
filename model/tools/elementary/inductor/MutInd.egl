@@ -1,0 +1,15 @@
+[%
+out.print(name);
+var l1 = params.ind1?.value;
+if(l1 != null){
+	out.print(" ");
+	out.print(l1.name.value);
+}
+var l2 = params.ind2?.value;
+if(l2 != null){
+	out.print(" ");
+	out.print(l2.name.value);
+}
+out.print(" ");
+out.print(formatter.format(params.coeff.value));
+%]

@@ -1,0 +1,9 @@
+.TITLE cccs
+V1 in GND 20.0
+R1 in 1 2.4
+R2 2 GND 1.333
+//CCCS F1
+vsrc_f1 1 2 0
+F1 GND 2 vsrc_f1 200m
+.OP
+.END
