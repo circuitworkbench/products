@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1752875848787" transient="false">
+	<site updateable="true" url="platform:/base/" enabled="true" policy="USER-EXCLUDE">
+		<feature id="com.circuitworkbench.feature.common" version="1.0.0.202507141918" url="features/com.circuitworkbench.feature.common_1.0.0.202507141918/">
+		</feature>
+		<feature id="com.circuitworkbench.feature.cdt" version="1.0.0.202507181958" url="features/com.circuitworkbench.feature.cdt_1.0.0.202507181958/">
+		</feature>
+		<feature id="com.circuitworkbench.feature.docs" version="1.0.0.202507141918" url="features/com.circuitworkbench.feature.docs_1.0.0.202507141918/">
+		</feature>
+		<feature id="com.circuitworkbench.feature.model" version="1.0.0.202507171958" url="features/com.circuitworkbench.feature.model_1.0.0.202507171958/">
+		</feature>
+		<feature id="com.circuitworkbench.feature.sdt" version="1.0.0.202507181958" url="features/com.circuitworkbench.feature.sdt_1.0.0.202507181958/">
+		</feature>
+		<feature id="com.circuitworkbench.feature.samples" version="1.0.0.202507171958" url="features/com.circuitworkbench.feature.samples_1.0.0.202507171958/">
+		</feature>
+	</site>
+</config>
