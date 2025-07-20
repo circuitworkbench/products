@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_dDkbkD2QEfCJ4uBMv7lhfA" abstraction="false" title="Non-ideal Transformer" description="Non-ideal Transformer" icon="NonIdealTransformer.png" egl="NonIdealTransformer.egl" evl="NonIdealTransformer.evl">
-  <supertype>..\..\NamedElement.csem</supertype>
-  <feature xsi:type="semantic:Attribute" xmi:id="_dDkbkT2QEfCJ4uBMv7lhfA" name="n" title="Ratio" description="Turns Ratio" viewPattern="{0, number}" visible="true" defaultValue="1" editPattern="{0, number}"/>
-  <feature xsi:type="semantic:Attribute" name="req" title="Req" description="Combined winding resistance" viewPattern="{0, number}Ω" editPattern="{0, number}" units="Ω"/>
-  <feature xsi:type="semantic:Attribute" name="leq" title="Leq" description="Combined leakage inductance" category="" viewPattern="{0, number}H" editPattern="{0, number}" units="H"/>
-  <feature xsi:type="semantic:Attribute" name="rc" title="Rc" description="Core resistance" viewPattern="{0, number}Ω" units="Ω"/>
-  <feature xsi:type="semantic:Attribute" name="lm" title="Lm" description="Magnetization inductance"/>
-</semantic:Semantic>

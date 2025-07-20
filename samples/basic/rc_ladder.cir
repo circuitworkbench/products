@@ -1,9 +1,0 @@
-.TITLE Dual RC Ladder
-R1 in int 10k
-R2 int out 1k
-C1 int GND 1µ
-C2 out GND 100n
-V1 in GND PULSE(0.0 5.0 1µ 1µ 1µ 1 1) AC 1 0.0
-.AC DEC 10 1 100k
-.PRINT AC vdb(out) ph(out)
-.END

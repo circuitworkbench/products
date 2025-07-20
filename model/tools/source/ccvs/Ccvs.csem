@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_X1LyILveEe-f09idac7W-g" abstraction="false" title="CCVS" description="Current Controlled Voltage Source" icon="Ccvs.png" egl="Ccvs.egl" evl="Ccvs.evl">
-  <supertype>..\..\NamedElement.csem</supertype>
-  <feature xsi:type="semantic:Attribute" name="trans" title="transresistance" description="Transresistance (gain)" viewPattern="TRANS={0, number}Ω" visible="true" editPattern="{0, number}" units="Ω"/>
-</semantic:Semantic>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:diagram="http://www.circuitworkbench.com/library/model/notation/diagram" xsi:schemaLocation="http://www.circuitworkbench.com/library/model/notation/diagram http://www.circuitworkbench.com/library/model/notation#//diagram" xmi:id="_X1TG4bveEe-f09idac7W-g">
-  <view xsi:type="diagram:Path" hint="composite" data="M 50.000000,38.000000 L 46.000000,38.000000 M 48.000000,13.000000 L 48.000000,23.000000 M 53.000000,23.000000 L 43.000000,23.000000 M 48.000000,38.000000 L 48.000000,48.000000 M 50.000000,28.000000 L 46.000000,28.000000 M 53.000000,33.000000 L 43.000000,33.000000"/>
-  <terminal name="Batt+" location="48 13"/>
-  <terminal name="Batt-" location="48 48"/>
-</diagram:Diagram>
