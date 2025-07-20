@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_X12ggbveEe-f09idac7W-g" abstraction="false" title="MOS Level 9 Model" description="MOS Level 9 Model" egl="Mos9Mod.egl" evl="Mos9Mod.evl">
+  <supertype>..\MosMod.csem</supertype>
+  <feature xsi:type="semantic:Attribute" name="kp" title="kp" description="Transconductance parameter" viewPattern="KP={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="xl" title="xl" description="Length mask adjustment" viewPattern="XL={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="wd" title="wd" description="Width Narrowing (Diffusion)" viewPattern="WD={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="xw" title="xw" description="Width mask adjustment" viewPattern="XW={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="delvto" title="delvto" description="Threshold voltage Adjust" viewPattern="DELVTO={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="vmax" title="vmax" description="Maximum carrier drift velocity" viewPattern="VMAX={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="xj" title="xj" description="Junction depth" viewPattern="XJ={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="nfs" title="nfs" description="Fast surface state density" viewPattern="NFS={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="xd" title="xd" description="Depletion layer width" viewPattern="XD={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="alpha" title="alpha" description="Alpha" viewPattern="ALPHA={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="eta" title="eta" description="Vds dependence of threshold voltage" viewPattern="ETA={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="delta" title="delta" description="Width effect on threshold" viewPattern="DELTA={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="input_delta" title="input_delta" description="" viewPattern="INPUT_DELTA={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="theta" title="theta" description="Vgs dependence on mobility" viewPattern="THETA={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="kappa" title="kappa" description="Kappa" viewPattern="KAPPA={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="kf" title="kf" description="Flicker noise coefficient" viewPattern="KF={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="af" title="af" description="Flicker noise exponent" viewPattern="AF={0, number}" editPattern="{0, number}"/>
+</semantic:Semantic>

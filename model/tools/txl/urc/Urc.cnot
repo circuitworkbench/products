@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Notation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.circuitworkbench.com/library/model/notation" xmi:id="_X1CBILveEe-f09idac7W-g" title="Urc" tooltip="Uniform distributed RC line" hint="urc" path="/txl/urc" iconSm="Urc.png" iconLg="Urc@2x.png" diagram="Urc.cdgm">
+  <semantic>Urc.csem</semantic>
+</notation:Notation>

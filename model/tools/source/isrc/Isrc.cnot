@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Notation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.circuitworkbench.com/library/model/notation" xmi:id="_X1OOYLveEe-f09idac7W-g" title="Isrc" tooltip="Independent Current Source" hint="isrc" path="/sources" iconSm="Isrc.png" iconLg="Isrc@2x.png" diagram="Isrc.cdgm">
+  <semantic>Isrc.csem</semantic>
+</notation:Notation>

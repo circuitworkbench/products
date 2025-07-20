@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_X1NAQbveEe-f09idac7W-g" title="Src">
+  <supertype>..\NamedElement.csem</supertype>
+</semantic:Semantic>

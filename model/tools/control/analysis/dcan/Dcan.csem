@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_X0X50bveEe-f09idac7W-g" abstraction="false" title="Dcan" description="DC Transfer Analysis" icon="Dcan.png" egl="Dcan.egl" evl="Dcan.evl">
+  <supertype>..\Analysis.csem</supertype>
+  <feature xsi:type="semantic:Attribute" name="src1" title="source1" description="Sweep 1 - Source Name" category="Sweep 1" viewPattern="SRC1={0}" datatype="STRING" editPattern="{0}"/>
+  <feature xsi:type="semantic:Attribute" name="start1" title="start1" description="Sweep 1 - Starting value" category="Sweep 1" viewPattern="START1={0, number}" defaultValue="0.0" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="stop1" title="stop1" description="Sweep 1 - Final value" category="Sweep 1" viewPattern="STOP1={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="incr1" title="increment1" description="Sweep 1 - Incrementing value" category="Sweep 1" viewPattern="INCR1={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="src2" title="source2" description="Sweep 1 - Source Name" category="Sweep 2" viewPattern="SRC2={0}" datatype="STRING" editPattern="{0}"/>
+  <feature xsi:type="semantic:Attribute" name="start2" title="start2" description="Sweep 2 - Starting value" category="Sweep 2" viewPattern="START2={0, number}" defaultValue="0.0" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="stop2" title="stop2" description="Sweep 2 - Final value" category="Sweep 2" viewPattern="STOP={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="incr2" title="increment2" description="Sweep 2 - Incrementing value" category="Sweep 2" viewPattern="INCR2={0, number}" editPattern="{0, number}"/>
+</semantic:Semantic>

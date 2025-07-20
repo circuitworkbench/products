@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Notation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.circuitworkbench.com/library/model/notation" xmi:id="_cyDisD_eEfCZRaF0xLJiHg" title="Non-ideal Transformer" tooltip="Non-ideal Transformer" hint="Non-ideal Transformer" path="/miscellaneous/transformers" iconSm="NonIdealTransformer.png" iconLg="NonIdealTransformer@2x.png" diagram="NonIdealTransformer.cdgm">
+  <semantic>NonIdealTransformer.csem</semantic>
+</notation:Notation>

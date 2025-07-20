@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:diagram="http://www.circuitworkbench.com/library/model/notation/diagram" xsi:schemaLocation="http://www.circuitworkbench.com/library/model/notation/diagram http://www.circuitworkbench.com/library/model/notation#//diagram" xmi:id="_X1bCsLveEe-f09idac7W-g">
+  <view xsi:type="diagram:Path" hint="composite" fill="true" data="M 50.335396,29.370741 C 52.188137,30.877556 54.147263,32.243187 56.123783,33.732605 C 53.754501,33.939358 51.385216,34.146107 49.015934,34.352859 C 49.408695,32.656693 49.801456,30.960526 50.335396,29.370741 Z"/>
+  <view xsi:type="diagram:Path" hint="composite" data="M 67.375000,25.062500 C 67.375000,15.016560 59.108440,6.750000 49.062500,6.750000 C 39.016560,6.750000 30.750000,15.016560 30.750000,25.062500 C 30.750000,35.108440 39.016560,43.375000 49.062500,43.375000 C 59.108440,43.375000 67.375000,35.108440 67.375000,25.062500 Z M 60.000000,5.000000 L 60.000000,15.000000 L 45.000000,20.000000 M 45.000000,25.000000 L 25.000000,25.000000 M 45.000000,15.000000 L 45.000000,35.000000 M 60.000000,45.000000 L 60.000000,35.000000 L 45.000000,30.000000"/>
+  <terminal name="NC" description="Collector node" location="60 5"/>  
+  <terminal name="NB" description="Base node" location="25 25"/>
+  <terminal name="NE" description="Emitter node" location="60 45"/>
+</diagram:Diagram>

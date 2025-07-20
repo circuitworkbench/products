@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_X1CoMbveEe-f09idac7W-g" abstraction="false" title="URC Model" description="URC Model" egl="UrcMod.egl" evl="UrcMod.evl">
+  <feature xsi:type="semantic:Attribute" name="k" title="k" description="Propagation constant" viewPattern="K={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="fmax" title="fmax" description="Maximum frequency of interest" viewPattern="FMAX={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="rperl" title="rperl" description="Resistance per unit length" viewPattern="RPERL={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="cperl" title="cperl" description="Capacitance per unit length" viewPattern="CPERL={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="isperl" title="isperl" description="Saturation current per length" viewPattern="ISPERL={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="rsperl" title="rsperl" description="Diode resistance per length" viewPattern="RSPERL={0, number}" editPattern="{0, number}"/>
+  <feature xsi:type="semantic:Attribute" name="urc" title="urc" description="Uniform R.C. line model" viewPattern="URC={0}" datatype="BOOLEAN" editPattern="{0}"/>
+</semantic:Semantic>

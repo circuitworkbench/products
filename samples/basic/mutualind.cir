@@ -1,0 +1,9 @@
+.TITLE Mutual Inductance Example
+Lp pri GND 10m
+Ls sec GND 2m
+Vs pri GND SIN(0.0 5.0 159.15)
+RL sec GND 500.0
+K1 Lp Ls 1
+.TRAN 100µ 100m
+.PRINT TRAN v(pri) v(sec)
+.END

@@ -1,0 +1,11 @@
+// Non-Ideal Transformer Subcircuit
+.SUBCKT NIT P1 P2 S1 S2
+Req P1 1 [%=formatter.format(params.req.value)%]
+Leq 1 2 [%=formatter.format(params.req.value)%]
+Rc P1 P2 [%=formatter.format(params.rc.value)%]
+Lm P1 P2 [%=formatter.format(params.lm.value)%]
+E1 S1 S2 2 P2 [%=params.n.value%]
+G1 2 P2 S1 S2 [%=1/params.n.value%]
+.ENDS
+
+[%=name%] [%=terminals.at(0).node%] [%=terminals.at(1).node%] [%=terminals.at(2).node%] [%=terminals.at(3).node%] NIT
